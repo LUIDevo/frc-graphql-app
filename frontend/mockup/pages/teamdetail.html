@@ -1,0 +1,293 @@
+    <div id="page-teamdetail" class="page">
+
+      <!-- Header -->
+      <div class="td-header">
+        <div class="td-header-left">
+          <button class="btn-pill" onclick="show('teams')" style="flex-shrink:0;">← Teams</button>
+          <div class="td-avatar" id="td-avatar" style="background:rgba(59,130,246,0.15);color:#93c5fd;border-color:rgba(59,130,246,0.2);">11</div>
+          <div>
+            <div class="page-eyebrow" id="td-eyebrow">Team 1114 · Ontario Provincial 2026</div>
+            <div class="page-display" id="td-name">Simbotics</div>
+          </div>
+        </div>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center;">
+          <button class="btn-pill">↑ Export</button>
+          <button class="btn-pill btn-pill-primary">+ Scout</button>
+        </div>
+      </div>
+
+      <!-- Stat strip -->
+      <div class="td-stat-strip" id="td-stat-strip">
+        <div class="td-stat td-stat-accent"><span class="td-stat-label">Rank</span><span class="td-stat-val" id="td-rank">#1</span></div>
+        <div class="td-stat td-stat-accent"><span class="td-stat-label">OPR</span><span class="td-stat-val" id="td-opr">247.3</span></div>
+        <div class="td-stat"><span class="td-stat-label">EPA</span><span class="td-stat-val" id="td-epa">198</span></div>
+        <div class="td-stat"><span class="td-stat-label">W–L</span><span class="td-stat-val" id="td-wl">9–1</span></div>
+        <div class="td-stat"><span class="td-stat-label">RP</span><span class="td-stat-val" id="td-rp">28</span></div>
+        <div class="td-stat td-stat-green"><span class="td-stat-label">Climb</span><span class="td-stat-val" id="td-climb">L3</span></div>
+        <div class="td-stat"><span class="td-stat-label">Avg fuel</span><span class="td-stat-val" id="td-fuel">12.4</span></div>
+        <div class="td-stat"><span class="td-stat-label">Scouted</span><span class="td-stat-val" id="td-logs">10 logs</span></div>
+      </div>
+
+      <!-- Two-col layout -->
+      <div class="td-two-col">
+
+        <!-- Left: Performance + Match history -->
+        <div class="td-section">
+
+          <!-- Performance card -->
+          <div class="td-card">
+            <div class="td-section-header">
+              <span class="td-section-title">Performance breakdown</span>
+              <span style="font-family:var(--mono);font-size:10px;color:var(--text-muted);">10 matches</span>
+            </div>
+
+            <!-- OPR breakdown bar -->
+            <div class="td-perf-bar">
+              <div style="font-family:var(--mono);font-size:10px;color:var(--text-muted);margin-bottom:4px;">OPR  <strong style="color:var(--text);font-size:13px;">247.3</strong></div>
+              <div class="td-perf-bar-track">
+                <div class="td-perf-bar-seg" style="width:41%;background:var(--accent);"></div>
+                <div class="td-perf-bar-seg" style="width:33%;background:#a78bfa;"></div>
+                <div class="td-perf-bar-seg" style="width:26%;background:var(--green);"></div>
+              </div>
+              <div class="td-perf-bar-labels">
+                <div class="td-perf-bar-item"><div class="td-perf-dot" style="background:var(--accent);"></div><span class="td-perf-text"><strong>101.4</strong> Auto (41%)</span></div>
+                <div class="td-perf-bar-item"><div class="td-perf-dot" style="background:#a78bfa;"></div><span class="td-perf-text"><strong>81.6</strong> Teleop (33%)</span></div>
+                <div class="td-perf-bar-item"><div class="td-perf-dot" style="background:var(--green);"></div><span class="td-perf-text"><strong>64.3</strong> Endgame (26%)</span></div>
+              </div>
+            </div>
+
+            <!-- Per-match bar chart -->
+            <div style="margin-top:14px;">
+              <div style="font-family:var(--mono);font-size:10px;color:var(--text-muted);margin-bottom:8px;text-transform:uppercase;letter-spacing:0.1em;">Fuel scored per match</div>
+              <div class="td-chart-row"><span class="td-chart-label">Q1</span><div class="td-chart-bar-wrap"><div class="td-chart-bar-fill" style="width:100%;background:var(--accent);"></div></div><span class="td-chart-val">14</span></div>
+              <div class="td-chart-row"><span class="td-chart-label">Q3</span><div class="td-chart-bar-wrap"><div class="td-chart-bar-fill" style="width:93%;background:var(--accent);"></div></div><span class="td-chart-val">13</span></div>
+              <div class="td-chart-row"><span class="td-chart-label">Q6</span><div class="td-chart-bar-wrap"><div class="td-chart-bar-fill" style="width:86%;background:var(--accent);"></div></div><span class="td-chart-val">12</span></div>
+              <div class="td-chart-row"><span class="td-chart-label">Q9</span><div class="td-chart-bar-wrap"><div class="td-chart-bar-fill" style="width:86%;background:var(--accent);"></div></div><span class="td-chart-val">12</span></div>
+              <div class="td-chart-row"><span class="td-chart-label">Q12</span><div class="td-chart-bar-wrap"><div class="td-chart-bar-fill" style="width:79%;background:var(--accent);"></div></div><span class="td-chart-val">11</span></div>
+              <div class="td-chart-row"><span class="td-chart-label">Q15</span><div class="td-chart-bar-wrap"><div class="td-chart-bar-fill" style="width:93%;background:var(--accent);"></div></div><span class="td-chart-val">13</span></div>
+            </div>
+          </div>
+
+          <!-- Match history card -->
+          <div class="td-card">
+            <div class="td-section-header">
+              <span class="td-section-title">Match history</span>
+              <span style="font-family:var(--mono);font-size:10px;color:var(--text-muted);">10 matches · 9W 1L</span>
+            </div>
+
+            <div class="td-match-row" onclick="show('matches')">
+              <span class="td-match-id">Q1</span>
+              <div class="td-match-alliances">
+                <div style="display:flex;gap:3px;">
+                  <span class="a-chip a-chip-red a-chip-you">1114</span>
+                  <span class="a-chip a-chip-red">854</span>
+                  <span class="a-chip a-chip-red">5031</span>
+                </div>
+                <div style="display:flex;gap:3px;margin-top:2px;">
+                  <span class="a-chip a-chip-blue">2056</span>
+                  <span class="a-chip a-chip-blue">771</span>
+                  <span class="a-chip a-chip-blue">610</span>
+                </div>
+              </div>
+              <span class="td-match-result" style="color:var(--green);">W</span>
+              <span class="td-match-score">148 – 120</span>
+              <span class="td-match-arrow">→</span>
+            </div>
+
+            <div class="td-match-row" onclick="show('matches')">
+              <span class="td-match-id">Q3</span>
+              <div class="td-match-alliances">
+                <div style="display:flex;gap:3px;">
+                  <span class="a-chip a-chip-blue a-chip-you">1114</span>
+                  <span class="a-chip a-chip-blue">9262</span>
+                  <span class="a-chip a-chip-blue">7558</span>
+                </div>
+                <div style="display:flex;gap:3px;margin-top:2px;">
+                  <span class="a-chip a-chip-red">4069</span>
+                  <span class="a-chip a-chip-red">854</span>
+                  <span class="a-chip a-chip-red">6632</span>
+                </div>
+              </div>
+              <span class="td-match-result" style="color:var(--green);">W</span>
+              <span class="td-match-score">162 – 97</span>
+              <span class="td-match-arrow">→</span>
+            </div>
+
+            <div class="td-match-row" onclick="show('matches')">
+              <span class="td-match-id">Q6</span>
+              <div class="td-match-alliances">
+                <div style="display:flex;gap:3px;">
+                  <span class="a-chip a-chip-red a-chip-you">1114</span>
+                  <span class="a-chip a-chip-red">610</span>
+                  <span class="a-chip a-chip-red">771</span>
+                </div>
+                <div style="display:flex;gap:3px;margin-top:2px;">
+                  <span class="a-chip a-chip-blue">5031</span>
+                  <span class="a-chip a-chip-blue">2056</span>
+                  <span class="a-chip a-chip-blue">4069</span>
+                </div>
+              </div>
+              <span class="td-match-result" style="color:var(--green);">W</span>
+              <span class="td-match-score">141 – 109</span>
+              <span class="td-match-arrow">→</span>
+            </div>
+
+            <div class="td-match-row" onclick="show('matches')">
+              <span class="td-match-id">Q9</span>
+              <div class="td-match-alliances">
+                <div style="display:flex;gap:3px;">
+                  <span class="a-chip a-chip-blue a-chip-you">1114</span>
+                  <span class="a-chip a-chip-blue">6632</span>
+                  <span class="a-chip a-chip-blue">854</span>
+                </div>
+                <div style="display:flex;gap:3px;margin-top:2px;">
+                  <span class="a-chip a-chip-red">771</span>
+                  <span class="a-chip a-chip-red">9262</span>
+                  <span class="a-chip a-chip-red">5031</span>
+                </div>
+              </div>
+              <span class="td-match-result" style="color:var(--green);">W</span>
+              <span class="td-match-score">155 – 88</span>
+              <span class="td-match-arrow">→</span>
+            </div>
+
+            <div class="td-match-row" onclick="show('matches')">
+              <span class="td-match-id">Q12</span>
+              <div class="td-match-alliances">
+                <div style="display:flex;gap:3px;">
+                  <span class="a-chip a-chip-red a-chip-you">1114</span>
+                  <span class="a-chip a-chip-red">610</span>
+                  <span class="a-chip a-chip-red">6632</span>
+                </div>
+                <div style="display:flex;gap:3px;margin-top:2px;">
+                  <span class="a-chip a-chip-blue">2056</span>
+                  <span class="a-chip a-chip-blue">771</span>
+                  <span class="a-chip a-chip-blue">5031</span>
+                </div>
+              </div>
+              <span class="td-match-result" style="color:#fb7185;">L</span>
+              <span class="td-match-score">138 – 144</span>
+              <span class="td-match-arrow">→</span>
+            </div>
+
+            <div class="td-match-row" onclick="show('matches')">
+              <span class="td-match-id">Q15</span>
+              <div class="td-match-alliances">
+                <div style="display:flex;gap:3px;">
+                  <span class="a-chip a-chip-blue a-chip-you">1114</span>
+                  <span class="a-chip a-chip-blue">4069</span>
+                  <span class="a-chip a-chip-blue">7558</span>
+                </div>
+                <div style="display:flex;gap:3px;margin-top:2px;">
+                  <span class="a-chip a-chip-red">854</span>
+                  <span class="a-chip a-chip-red">9262</span>
+                  <span class="a-chip a-chip-red">610</span>
+                </div>
+              </div>
+              <span class="td-match-result" style="color:var(--green);">W</span>
+              <span class="td-match-score">171 – 102</span>
+              <span class="td-match-arrow">→</span>
+            </div>
+
+            <div style="font-family:var(--mono);font-size:10px;color:var(--text-muted);padding:8px 0 0;text-align:center;letter-spacing:0.06em;">4 more matches · view all in Matches</div>
+          </div>
+
+        </div>
+
+        <!-- Right: Scouting reports -->
+        <div class="td-section">
+
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:4px;">
+            <span class="td-section-title">Scouting reports</span>
+            <span style="font-family:var(--mono);font-size:10px;color:var(--text-muted);">10 logs</span>
+          </div>
+
+          <div class="td-scout-card" style="animation-delay:0s;">
+            <div class="td-scout-top">
+              <div>
+                <div class="td-scout-match">Match Q1</div>
+                <div class="td-scout-by">Scout · Alex M.</div>
+              </div>
+              <span class="pill pill-green" style="font-size:9px;padding:2px 6px;">L3</span>
+            </div>
+            <div class="td-scout-metrics">
+              <div class="td-scout-metric"><span class="td-scout-metric-label">Auto</span>14 fuel</div>
+              <div class="td-scout-metric"><span class="td-scout-metric-label">Tele</span>11 / 0</div>
+              <div class="td-scout-metric"><span class="td-scout-metric-label">Climb</span>L3 ✓</div>
+            </div>
+            <div class="td-scout-notes">Fast ground intake, crossed auto line immediately. Very consistent.</div>
+          </div>
+
+          <div class="td-scout-card" style="animation-delay:0.04s;">
+            <div class="td-scout-top">
+              <div>
+                <div class="td-scout-match">Match Q3</div>
+                <div class="td-scout-by">Scout · Priya K.</div>
+              </div>
+              <span class="pill pill-green" style="font-size:9px;padding:2px 6px;">L3</span>
+            </div>
+            <div class="td-scout-metrics">
+              <div class="td-scout-metric"><span class="td-scout-metric-label">Auto</span>13 fuel</div>
+              <div class="td-scout-metric"><span class="td-scout-metric-label">Tele</span>12 / 1</div>
+              <div class="td-scout-metric"><span class="td-scout-metric-label">Climb</span>L3 ✓</div>
+            </div>
+            <div class="td-scout-notes">Dominant teleop. Missed 1 high goal, otherwise clean. Started climb early.</div>
+          </div>
+
+          <div class="td-scout-card" style="animation-delay:0.08s;">
+            <div class="td-scout-top">
+              <div>
+                <div class="td-scout-match">Match Q6</div>
+                <div class="td-scout-by">Scout · Jordan T.</div>
+              </div>
+              <span class="pill pill-green" style="font-size:9px;padding:2px 6px;">L3</span>
+            </div>
+            <div class="td-scout-metrics">
+              <div class="td-scout-metric"><span class="td-scout-metric-label">Auto</span>12 fuel</div>
+              <div class="td-scout-metric"><span class="td-scout-metric-label">Tele</span>10 / 0</div>
+              <div class="td-scout-metric"><span class="td-scout-metric-label">Climb</span>L3 ✓</div>
+            </div>
+            <div class="td-scout-notes">Slightly slower auto than usual. Teleop efficient, no misses. Perfect L3.</div>
+          </div>
+
+          <div class="td-scout-card" style="animation-delay:0.12s;">
+            <div class="td-scout-top">
+              <div>
+                <div class="td-scout-match">Match Q9</div>
+                <div class="td-scout-by">Scout · Alex M.</div>
+              </div>
+              <span class="pill pill-green" style="font-size:9px;padding:2px 6px;">L3</span>
+            </div>
+            <div class="td-scout-metrics">
+              <div class="td-scout-metric"><span class="td-scout-metric-label">Auto</span>12 fuel</div>
+              <div class="td-scout-metric"><span class="td-scout-metric-label">Tele</span>11 / 0</div>
+              <div class="td-scout-metric"><span class="td-scout-metric-label">Climb</span>L3 ✓</div>
+            </div>
+            <div class="td-scout-notes">Textbook performance. Worked well with 6632 as feeder.</div>
+          </div>
+
+          <div class="td-scout-card" style="animation-delay:0.16s;">
+            <div class="td-scout-top">
+              <div>
+                <div class="td-scout-match">Match Q12</div>
+                <div class="td-scout-by">Scout · Priya K.</div>
+              </div>
+              <span class="pill" style="font-size:9px;padding:2px 6px;background:rgba(244,63,94,0.1);border-color:rgba(244,63,94,0.25);color:#fb7185;">L (loss)</span>
+            </div>
+            <div class="td-scout-metrics">
+              <div class="td-scout-metric"><span class="td-scout-metric-label">Auto</span>11 fuel</div>
+              <div class="td-scout-metric"><span class="td-scout-metric-label">Tele</span>9 / 2</div>
+              <div class="td-scout-metric"><span class="td-scout-metric-label">Climb</span>L3 ✓</div>
+            </div>
+            <div class="td-scout-notes">Missed 2 teleop shots, opponent alliance peaked. Still climbed L3.</div>
+          </div>
+
+          <div style="font-family:var(--mono);font-size:10px;color:var(--text-muted);padding:10px 0 0;text-align:center;letter-spacing:0.06em;">5 more reports available</div>
+
+        </div>
+      </div>
+    </div><!-- /page-teamdetail -->
+
+    <!-- ═══════════════════════════════════
+         MATCHES PAGE
+    ════════════════════════════════════ -->

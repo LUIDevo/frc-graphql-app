@@ -1,0 +1,24 @@
+### Add Event
+POST http://localhost:4000/graphql
+Content-Type: application/json
+
+{
+  "query": "mutation AddEvent($eventKey: String!, $name: String!, $startDate: String!, $endDate: String!) { addEvent(eventKey: $eventKey, name: $name, startDate: $startDate, endDate: $endDate) { eventKey name startDate } }",
+  "variables": {
+    "eventKey": "2026ontor",
+    "name": "Test Event",
+    "startDate": "2026-03-12",
+    "endDate": "2026-03-14"
+  }
+}
+
+### Initialise
+POST http://localhost:4000/graphql
+Content-Type: application/json
+
+{
+  "query": "mutation initializeEvent($eventKey: String!) { initializeEvent(eventKey: $eventKey) }",
+  "variables": {
+    "eventKey": "2026ontor"
+  }
+}

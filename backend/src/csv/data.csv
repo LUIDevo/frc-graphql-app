@@ -1,0 +1,391 @@
+matchNumber,TeamNumber,scoutId,teamPosition,teamColour,humanGoals,processorGoals,NumberOfMissed,NumberNetGoals,NumberL1,NumberL2,NumberL3,NumberL4,Climb,Penalty,Cooperitition,Comments,Auto Comments
+37,772,Matt,middle,red,0,1,3,1,0,0,0,0,park,no,yes,did nothing for half the match,moves 2 inches
+43,772,Louis,middle,blue,0,0,0,4,0,0,0,0,park,no,no,only scored net, but is pretty good at what it does. it scored about 50/50,doesn't move
+8,772,Justin,middle,red,0,0,0,0,0,0,0,0,park,no,no,Remove 1 algae. Good Defense,taxi
+4,772,Becky,middle,red,0,0,2,2,0,0,0,0,park,no,yes,Moves slowly, weak defense, only scored on net, robot grip isn't reliable,taxi
+20,772,Richard Apel,processor,blue,0,0,0,6,0,0,0,0,park,no,yes,Very good at algae pickup and throw,Did nothing
+34,772,Vincent Trang,opposite,red,0,0,0,0,0,0,0,0,park,yes,no,Plays defense,auto doesn't move
+37,781,Richard Apel,processor,blue,1,0,2,0,0,0,1,11,park,no,no,No comments,two level 4s
+32,781,Richard Apel,processor,blue,0,0,0,2,0,0,5,2,park,no,yes,No comments,No comments
+43,781,Richard Apel,processor,blue,0,0,0,0,0,0,0,5,park,no,no,No comments,two level 4s
+21,781,Richard Apel,opposite, blue,0,0,0,1,0,3,3,5,park,no,no,fast consistent scoring,level 4
+11,781,Louis,processor,red,0,0,1,2,0,0,0,6,failed,no,no,very fast and can score l4s with a quick cycle,2 l4
+7,781,Matt,processor,red,0,0,1,0,0,0,0,4,park,no,no,Pretty solid,Scores a couple l4
+17,781,Vedant Kansara,processor,red,0,0,1,0,1,2,4,8,park,no,yes,Robot moves really fast and scores corals on Level 3 and 4 effectively,did nothing
+9,1229,Justin,middle,red,0,0,1,0,0,0,0,1,park,no,no,Coral stuck on the robot. Algae removeal,l4
+26,1229,Richard Apel,processor,blue,0,2,0,0,2,0,0,3,park,no,yes,poor aim,missed level 4
+4,1229,Matin,opposite,blue,0,2,0,0,0,0,0,1,failed,no,no,they were doing fne on auto, lvl 4's, and algae, but flipped over mid match,got 1 lvl 4
+30,1229,Matin,opposite,blue,0,0,2,0,0,0,0,2,failed,no,no,had a coral stuck on their robot and wasted like 40 seconds trying to get it off. Inconsistent, and take a long time for each lvl 4,dashed forward, dropped their coral
+21,1229,Matin,opposite,blue,0,0,1,0,6,3,1,1,failed,no,no,only did lower floors the whole time so they didn't miss much and had a good auto,1 lv4
+p3,1229,Yasmin and Sabrina,processor,red,0,0,2,0,3,0,0,0,failed,no,no,Too loose, couldnt hold it in,No comments
+41,1229,Vincent Trang,opposite,red,0,2,0,0,1,0,0,2,failed,no,no,Its not very accurate.,auto has a slight delay and doesn't score.
+37,1279,Nishant Shah,opposite,red,0,0,0,0,0,0,0,4,park,no,no,a all rounder in all aspects,No comments
+16,2634,becky,middle,red,0,0,0,0,0,0,0,0,failed,no,no,No show,No comments
+30,2634,Richard Apel,processor,blue,0,0,0,0,0,0,0,5,park,no,no,Slow at level 4s,Did nothing
+6,2634,Matin,opposite,blue,0,0,1,0,0,0,0,5,failed,no,no,Kept going for the l4 corals, auto did nothing,did nothing
+q1,2634,Yusef Mayahi,opposite,red,0,0,0,0,0,0,0,1,park,yes,no,robot arm broke 20 secs into the game. robot then play defend the whole game. during defend it rameed multple robots at full force,drove towards reef before stoping half way
+11,2634,Julio Antonio Gonzalez,middle,blue,0,0,0,0,0,0,5,0,park,no,no,was only able to score on the 3rd level,no auto
+27,2634,Julio Antonio Gonzalez,middle,blue,0,0,0,0,2,2,0,0,failed,no,no,was kind of slow and only able to score on the lower levels,no auto
+11,2634,Brian,middle,blue,0,0,0,0,0,0,6,0,park,no,no,100% at placing coral in l3 and was pretty good,auto didn't move at all
+27,2634,Marcus,middle,blue,0,0,4,0,1,2,0,0,failed,yes,no,Very poor consistency, auto doesn't work, also one of the slower robots in team,Freezes once it arrives near coral
+20,3576,Julio Antonio Gonzalez,middle,blue,2,2,1,0,0,0,1,0,park,no,no,more algae based than coral,no auto
+24,3739,Justin,middle,red,0,0,1,0,0,4,4,2,failed,no,no,takes like 2 sec to line up with reef,dropped its coral. No move
+P4,3739,Becky,middle,red,0,0,3,0,0,0,1,7,failed,no,no,very wobbly and takes forever to line up,L4 miss
+19,3739,Matin,opposite,blue,0,0,0,0,1,0,2,6,failed,no,no,good versatility, took their time, didn't miss any shots. Got one in auto too,1 lv4
+8,3739,Julio Antonio Gonzalez,middle,blue,0,0,0,0,0,0,0,6,failed,no,no,Fast but easy to tip over can reach the higher levels.,auto not working to well
+4,3739,Julio Antonio Gonzalez,middle,blue,0,0,0,0,1,3,4,3,park,no,no,was fast and able to score some coral points,no auto
+12,3739,Julio Antonio Gonzalez,middle,blue,0,0,0,0,0,1,2,2,park,no,no,able to score on lvl 4,no auto just stays in place
+8,3739,Brian,middle,blue,0,0,2,0,0,1,0,5,failed,no,no,scored around 50% of l4 and performed well,slow and missed l4 in auto
+12,3739,Brian,middle,blue,0,0,0,0,0,3,4,4,failed,no,no,really good at scoring at 2-4 levels.,didn't move for auto
+39,3739,Nishant Shah,opposite,red,0,0,0,0,0,0,0,10,park,no,no,Didn't fumble it's coral once, was very accurate to,No comments
+33,3739,Nishant Shah,opposite,red,0,0,0,0,0,0,0,9,park,no,no,fast, did almost everything for their team,scored once
+31,3756,Matt,middle,red,0,5,2,0,0,0,0,0,park,no,yes,had trouble holding onto algae, constantly dropping,Taxi
+17,3756,Becky,middle,red,0,3,0,0,1,0,0,0,low,yes,yes,Scored in the wrong processer,,Taxi
+41,3756,Louis,middle,red,0,3,1,0,0,0,0,0,park,no,no,Did ok but mostly focused on processor even though it could coral,got into position
+38,3756,Richard Apel,processor,blue,2,0,0,0,1,0,0,0,low,yes,no,Played defense,Did nothing
+13,3756,Richard Apel,opposite,blue,2,3,0,0,0,0,0,0,park,no,yes,Failed deep climb,did nothing
+2,3756,sabrina & yasmin,processor,red,6,6,0,0,0,0,0,0,failed,no,no,zero coarl on reef, all algae,line
+20,3756,Marcus,middle,blue,0,0,1,0,0,0,1,0,park,no,no,slow, low accuracy,did a wiggle and stopped
+20,3756,Joseph Umana,middle,blue,0,1,1,0,0,0,1,0,park,no,no,I was not fully attentive so probably missed some lol. (probably trust other reports),goes back in a zigzag, no score
+19,4617,Yusef Mayahi,opposite,red,0,0,0,0,2,0,0,0,park,yes,no,defended,did nothing
+5,4617,Nishant Shah,opposite,red,0,0,0,0,0,0,0,0,park,no,no,immediately went to park,No comments
+29,4617,Julio Antonio Gonzalez,middle,blue,0,0,0,0,0,0,0,0,failed,no,no,played defense whole match slow and hard to control, top heavy and most likely easy to tip,no auto
+24,4617,Julio Antonio Gonzalez,middle,blue,0,0,0,0,0,0,0,0,park,no,no,played defense whole match,no auto
+32,4617,Julio Antonio Gonzalez,middle,blue,0,0,0,0,0,0,0,0,park,no,no,played defense whole match slow and hard to control, top heavy and most likely easy to tip,no auto
+10,4617,Julio Antonio Gonzalez,middle,blue,0,0,0,0,0,0,0,0,failed,no,no,played defense the entire match and had trouble with accelerating and stopping,no auto
+29,4617,Marcus,middle,blue,0,0,0,0,0,0,0,0,failed,no,no,playing defense, contributed very little to nothing,moved towards coral but did nothing afterwards
+32,4617,Brian,middle,blue,0,0,0,0,0,0,0,0,park,no,no,got stuck on algae and then got free and played defense,moved towards coral reef and missed coral
+10,4617,Brian,middle,blue,0,0,0,0,0,0,0,0,failed,no,no,Only played defend by blocking other team processor and stayed there the whole game.,moved towards coral but did nothing afterwards
+24,4617,Joseph Umana,middle,blue,0,0,0,0,0,0,0,0,park,no,no,strategically placed the coral,backed up to reef, no score
+27,4678,Richard Apel,processor,blue,0,0,0,0,1,3,4,4,park,no,no,,three level 4s
+17,4678,Matin,opposite,blue,0,0,0,0,5,7,6,8,low,no,no,perfection,3 l4
+12,4678,Matt,processor,red,0,0,1,0,4,4,5,1,park,no,no,very fast, crazy good at outplaying defense bots,4 L4
+8,4678,Louis,processor,red,0,0,0,0,5,7,9,5,low,no,no,no words can describe this cycle time. this means that it is very fast at scoring,4 level 4s crazy
+P1,4688,Matin,opposite,blue,0,0,1,0,0,0,2,0,failed,yes,no,Very slow, but very consistent on lvl 3 coral,did nothing
+7,4688,Yazen,opposite,blue,0,0,0,0,0,0,0,0,failed,no,no,did nothing for like 2/3 of the round, and drove around in that last 1/3 trying to play defense,did nothing
+11,4688,Vincent Trang,opposite,red,0,0,0,0,0,1,4,0,failed,no,no,The robot went into the other side and mostly scored l3,auto wnet into the other side
+4,4688,Yusef Mayahi,opposite,red,0,0,1,0,0,0,7,0,park,yes,no,very good cycle times. did not go for lvl 4 at all,moved a bit but stay near cage
+18,4688,Vincent Trang,opposite,red,0,0,0,0,1,0,1,0,park,yes,no,the robot kept missing l2 and l3.,auto drives into other side
+21,4688,Vincent Trang,opposite,red,0,0,0,0,0,1,4,0,failed,yes,no,robot only scores l3 or under,auto doesnt work.
+31,4688,Julio Antonio Gonzalez,middle,blue,0,0,0,0,2,2,5,0,failed,no,no,good for clearing algae off of the coral structure but has only scored on the 3rd and 2nd level,no auto
+35,4688,Julio Antonio Gonzalez,middle,blue,0,0,0,0,0,0,0,0,failed,no,no,played defense whole match slow,no auto
+31,4688,Brian,middle,blue,0,0,1,0,1,3,4,0,failed,no,yes,good at removing algae and putting coral at L3,slow auto, stopped in front of coral reef
+35,4688,Brian,middle,blue,0,0,0,0,0,0,1,0,park,no,no,scored once then played defense; ok at defense,ran straight into coral reef then froze
+25,4688,Nishant Shah,processor,red,0,0,0,0,2,1,4,0,park,no,no,Fast, has a good driver,didn't move
+24,4817,Marcus,middle,blue,0,0,0,0,0,0,0,0,park,no,no,They are mediocre at defense, which is their strong point, they were knocked out many times,auto stops midway no arm movement
+25,4907,Richard Apel,processor,blue,0,0,0,3,0,0,3,7,low,no,no,No comments,three level 4s
+22,4907,Richard Apel,processor,blue,0,0,1,1,0,2,4,5,park,no,no,good coral, only sucked once :(,2 level 4s, missed one
+42,4907,Richard Apel,processor,blue,0,0,0,0,3,0,2,1,low,no,no,No comments,No comments
+35,4907,Matin,opposite,blue,0,0,2,3,5,0,1,4,park,no,no,versatile, didn't waste time even when they missed, did what's best for the team.,3 l4
+8,4907,Vincent Trang,opposite,red,0,0,0,5,2,3,3,4,low,no,no,Extremely fast at scoring net goals and l4s.,auto almost scored 3 l4s
+5,4907,Yasmin Sabrina,processor,red,0,0,0,3,0,1,5,8,low,no,no,Really good. Won by a lot even though other two robots broke down 30s into game. Can easilly score net goals.,No comments
+35,4920,Richard Apel,processor,blue,0,0,0,0,0,5,1,7,failed,no,no,No comments,three level 4s
+32,4920,Matin,opposite,blue,0,0,0,0,0,1,3,7,park,no,no,amazing auto, didn't miss a shot, consistent, almost flipped, versatile,2 lv4
+10,4920,Nishant Shah,opposite,red,0,0,0,0,0,0,0,8,park,no,no,fast, focused on level 4, great driver,No comments
+6,4920,Matt,processor,red,0,0,1,0,0,0,0,7,low,no,yes,Very fast and steady, much better than last comp,3 L4
+p4,4920,Yasmin and Sabrina,processor,red,0,0,2,0,1,1,0,5,park,no,no,very good,No comments
+40,4920,Nishant Shah,opposite,red,0,0,0,0,0,0,1,5,failed,no,no,Scored really fast and precise, however it broke down halfway through the match but the points gave them such a head start that they still won by 100 points,No comments
+28,4920,Nishant Shah,opposite,red,0,0,0,0,0,1,1,10,park,no,no,Very fast, precise, good driver and excels at scoring level 4s,very good
+25,4940,Justin,middle,red,0,3,0,0,0,0,0,0,park,yes,no,Did some processor, played some defense. bad defense,1 l1
+35,4940,Becky,middle,red,0,5,0,0,0,0,0,0,low,no,yes,Runs smoothly, difficulty grabbing coral, only scored using the processer,Taxi
+30,4940,Matt,middle,red,0,6,4,0,0,0,0,0,low,no,yes,very good but all procesor,Taxi
+19,4940,Becky,middle,red,0,6,0,0,0,0,0,0,park,yes,yes,good at scoring in the processor,Taxi
+Practice 7,4940,Louis,middle,red,0,6,0,0,0,0,0,0,low,no,no,only did processor,No comments
+23,4940,Yusef Mayahi (the goat),opposite,red,0,0,0,0,0,0,1,3,park,yes,yes,No comments,did nothing
+p7,4940,Vincent Trang,opposite,red,0,6,0,0,0,0,0,0,low,no,no,Only goes for processor,auto doesnt work.
+40,4940,Julio Antonio Gonzalez,middle,blue,5,5,0,0,1,0,0,0,low,no,no,good for algae but not much else,auto doesn't work very well
+1,4940,Julio Antonio Gonzalez,middle,blue,4,5,1,0,0,0,0,0,park,no,yes,very algae focused and is able to remove algae from coral structure,was able to score one coral but nothing else
+13,4940,Julio Antonio Gonzalez,middle,blue,5,6,0,0,0,0,0,0,low,no,no,very algae focused and can consistently score algae along with a good deep climb,no effective auto
+5,4940,Julio Antonio Gonzalez,middle,blue,7,7,0,0,0,0,0,0,low,no,no,Very algae focused,no auto
+practice2,4940,Marcus,middle,blue,0,2,1,0,0,0,0,0,failed,no,no,They were good on processor until froze with around 1 minute left,Moved and missed L1
+Qualification1,4940,Brian,middle,blue,0,5,0,0,1,0,0,0,park,no,no,Scored 1 l1 coral in auto, cleared algae and scored by using processor.,scored L1 coral
+40,4940,Marcus,middle,blue,0,6,0,0,1,0,0,0,low,no,no,really good at processor, but 5885 wiped their team tho 1v3 squad wipe style 148-58,waited with coral over l1
+5,4940,Brian,middle,blue,0,6,1,0,0,0,0,0,low,no,no,scored using the processor and that was it.,tried to score l1 in auto but failed
+13,4940,Joseph Umana,middle,blue,6,6,0,0,1,0,0,0,low,no,yes,really good with algae, no coral (except for auto),backs up and drops coral in L1
+P3,4951,Matin,opposite,blue,0,0,1,0,0,0,0,2,park,no,no,good at level 4 coral, but very jittery,did nothing
+42,4951,Matin,opposite,blue,0,0,2,0,2,1,0,1,failed,no,no,didn't do much because they had a very good team but I dont think they played bad at all. They showed more in other games.,1 l4
+3,4951,Matin,opposite,blue,0,0,4,0,0,0,0,5,failed,no,no,didn't do anything in auto but good at level 4 coral,missed a level 4
+31,4951,Matin,opposite,blue,0,0,0,0,1,1,1,4,park,no,no,Very consistent and smooth on the coral, parked, didn't do anything else. Not very fast,did nothing
+P7,4951,Matin,opposite,blue,0,0,0,0,0,0,0,5,failed,no,no,good level 4's,did nothing
+12,4951,Matin,opposite,blue,0,0,1,0,0,0,0,5,park,no,no,good and consistent at level 4 coral, not jittery like before,got one level 4
+15,4951,Vincent Trang,opposite,red,0,0,0,0,0,0,0,2,park,no,no,Kept on missing l4s.,auto moves to reef but doesnt score.
+20,4951,Yusef Mayahi,opposite,red,0,0,1,0,0,0,1,3,park,no,no,No comments,did 1 l4
+practice3,4951,Brian,middle,blue,0,0,2,0,0,0,0,3,park,no,no,didn't do anything in auto.,scored nothing
+26,4951,Yusef Mayahi,opposite,red,0,0,0,3,3,0,1,1,park,yes,no,No comments,got 1 lvl 4
+38,4951,Vincent Trang,opposite,red,0,1,0,0,0,0,0,2,park,no,no,No comments,auto works and scores one l4
+21,5408,Matt,middle,red,0,0,6,0,0,1,0,0,park,no,no,got a coral stuck, failed many pickups. basically just a L2 kitbot.. -_-,Taxi
+P2,5408,Matt,middle,red,0,0,14,0,0,6,0,0,park,yes,no,Bad driver accuracy, sporadic movements,Taxi
+1,5408,Matin,opposite,blue,0,0,3,0,0,2,2,0,failed,no,no,didn't do much in auto, focused on level 2s and 3s but didn't make all of them,dashed forward
+41,5408,Matin,opposite,blue,0,0,0,0,0,0,3,0,park,no,no,very slow, a lot of time wasted, cant do l4,dashed forward
+25,5408,Matin,opposite,blue,0,0,2,0,1,4,1,0,park,no,no,focused on lower floors, pretty slow, didn't get any coral points in auto,dashed forward
+33,5408,Matin,opposite,blue,0,0,2,0,0,1,4,0,park,no,no,focused on level 2/3, pretty slow, and spent a long time just to miss shots.,dashed forward
+16,5408,Vedant Kansara,processor,red,0,0,3,0,1,4,0,0,park,no,yes,They were the only score bot, team missing a robot,crossed the line
+6,5596,Nishant Shah,opposite,red,0,0,0,0,0,0,0,0,park,no,no,Played defense the whole time,didnt work
+14,5596,Julio Antonio Gonzalez,middle,blue,0,0,0,0,0,0,0,0,park,no,no,played defense whole match,no auto
+17,5596,Julio Antonio Gonzalez,middle,blue,0,0,0,0,0,0,0,0,park,no,no,played defense whole match,no auto
+21,5596,Julio Antonio Gonzalez,middle,blue,0,0,0,0,0,0,0,0,park,no,no,played defense whole match,no auto
+33,5596,Julio Antonio Gonzalez,middle,blue,0,0,0,0,0,0,0,0,park,no,no,played defense whole match,no auto
+1,5596,yasmin & Sabrina,processor,red,0,0,0,0,0,0,0,0,park,no,no,defense from the start then broke down,line
+practice5,5596,Marcus,middle,blue,0,0,2,0,0,0,0,0,park,no,no,only tried l1 failed every time, poor control (shaky), kept dropping coral when receiving,slow off the start,
+16,5596,Marcus,middle,blue,0,0,0,0,0,0,0,0,park,yes,yes,played defense,only moved
+21,5596,Marcus,middle,blue,0,1,0,0,0,0,0,0,park,no,no,they just played defense couldn't see anything else,sitting at coral reef
+33,5596,Brian,middle,blue,0,0,0,0,0,0,0,0,park,no,no,played decent defense.,moved towards coral reef but did nothing afterwards
+27,5596,Vincent Trang,opposite,red,0,0,0,0,0,0,0,0,failed,no,no,Plays defense,auto only moves up a little bit
+14,5596,Joseph Umana,middle,blue,0,0,0,0,0,0,0,0,park,no,no,Played defense, did not concede any penalty,drops coral goes to reef
+17,5596,Joseph Umana,middle,blue,0,0,1,0,0,0,0,0,park,no,no,Played effective defense,goes back
+21,5596,Joseph Umana,middle,blue,0,0,0,0,0,0,0,0,failed,no,no,Playing defense, effective at blocking coral,missed it oops (i already scouted them so just check that)
+15,5689,becky,middle,red,1,4,3,0,0,0,0,0,failed,no,yes,Only did processor, trouble holding algae,L1
+6,5689,Justin,middle,red,0,4,2,0,1,0,0,0,park,no,no,Chase after algae,l1
+3,5689,Becky,middle,red,4,0,2,0,0,0,0,0,failed,yes,yes,Robot relied on the human to score on the net, good offensive driving,taxi
+41,5689,Richard Apel,processor,blue,3,5,0,0,1,0,0,0,park,no,yes,Only proccesor,No comments
+34,5689,Richard Apel,processor,blue,0,5,0,0,0,0,0,0,park,no,no,No comments,Did nothing
+11,5689,Matin,opposite,blue,0,0,1,0,0,0,0,0,park,no,no,playing defense most of the time, not much value,did nothing and dropped their coral
+p3,5689,Nishant Shah,opposite,red,0,0,1,2,0,0,0,0,park,yes,no,They didnt even try to touch the coral and focused on the algae, their auto was off,auto is off
+37,5689,Julio Antonio Gonzalez,middle,blue,8,8,0,0,0,0,0,0,park,no,no,algae focused and can only score in the proccesor,no auto
+34,5689,Julio Antonio Gonzalez,middle,blue,5,5,0,0,0,0,0,0,failed,no,no,algae focused and can only score in the proccesor,no auto
+37,5689,Marcus,middle,blue,0,7,0,0,0,0,0,0,park,no,no,Very good at processor,missed L1
+34,5689,Ryleigh,middle,blue,0,5,2,0,0,0,0,0,failed,no,no,poor accuracy with placing algae(missed 2/6), pretty fast,moved forward and removed algae, poor control hitting walls
+40,5885,Louis,middle,red,0,0,2,0,2,2,6,1,failed,no,no,great team. both of the other robots on the alliance either flipped over or got stuck and the team STILL GOT 148 POINTS ALMOST ENTIRELY BY ITSELF.,1 l4
+24,5885,Richard Apel,processor,blue,0,1,1,0,2,0,0,3,park,no,no,great auto but questionable driving,2 level 4s
+P4,5885,Matin,opposite,blue,0,0,7,0,0,1,0,1,failed,no,no,very inconsistent, missed most of their shots.good auto,one level 4
+17,5885,Yusef Mayahi,opposite,red,0,0,1,0,0,0,0,7,failed,yes,no,No comments,No comments
+14,5885,Vedant Kansara,processor,red,0,0,0,0,0,0,0,5,high,no,yes,Quick cycles with Level 4 scoring,No comments
+3,5885,Yasmin Sabrina,processor,red,0,0,5,0,1,0,0,0,park,no,yes,Arm does not pick up well at all, can't score, only scores are by luck when it falls into level 1,No comments
+23,5912,justin,middle,red,0,0,0,0,1,0,6,4,failed,no,no,Fast,l4
+29,5912,Matt,middle,red,0,0,3,0,2,1,2,1,failed,no,yes,takes time to score, fast removal,L4
+20,5912,Becky,middle,red,0,0,1,0,0,1,3,4,failed,no,no,Mainly focused on L3 and L4,No movement
+P5,5912,Becky,middle,red,0,0,3,0,2,4,3,1,failed,no,no,Not very accurate, Weak stability when extended,1 L4
+13,5912,Justin,middle,red,0,2,0,0,1,2,5,1,park,no,no,good,miss l4
+Practice 6,5912,Louis,middle,red,1,0,1,0,1,0,2,7,failed,no,no,Consistent level 4s, about 15 second cycles but only missed once. pretty solid,went for l4 but missed
+33,5912,Abir,processor,blue,0,0,1,0,1,0,0,7,failed,no,no,fast level 4s,Successful Level 1414
+39,5912,Julio Antonio Gonzalez,middle,blue,0,0,0,0,1,2,0,1,failed,no,no,good for algae removal and can score coral on all levels,auto doesn't work very well
+43,5912,Julio Antonio Gonzalez,middle,blue,0,0,0,0,1,2,0,4,failed,no,no,can remove algae but is mostly coral focused,no auto
+7,5912,Julio Antonio Gonzalez,middle,blue,1,1,0,0,1,0,0,10,park,no,no,very fast and able to get lots of high level coral and can remove algae off of the reef,auto works very well and can score many high lvl coral
+2,5912,Julio Antonio Gonzalez,middle,blue,0,0,2,0,0,5,1,0,park,no,no,Tried playing defense in last 30 seconds, did not work.,Missed lvl 4 coral
+7,5912,Marcus,middle,blue,0,1,2,0,1,0,0,6,park,no,no,50% accurate for L4s, very smooth. Can do processor,Fast auto
+39,5912,Marcus,middle,blue,0,0,3,0,1,0,3,1,failed,no,no,they are consistently mediocre,tried to score l4 in auto but failed
+42,5912,Marcus,middle,blue,0,0,1,0,0,4,2,2,failed,no,no,they were pretty good at scoring, not many bad things about them,got L4 for auto
+2,5912,Brian,middle,blue,0,0,0,0,0,5,1,0,park,no,yes,scored 1 l1 coral in auto, missed coral delivery once.,scored 1 l1 auto
+14,6162,Justin,middle,red,0,4,0,0,0,0,0,0,park,no,no,Literally can only do processor. so boring,did a 360 loop
+27,6162,Matin,opposite,blue,0,0,0,0,0,0,0,0,park,yes,no,played defense but it didn't affect the game much,dashed forward
+2,6162,Matin,opposite,blue,0,5,0,0,0,0,0,0,failed,no,no,focused on algae and did a pretty good job. no auto,did nothing
+9,6162,Yusef Mayahi,opposite,red,0,2,0,0,0,0,1,0,park,no,no,very slow cluncky. had trouble gettign algee into the robot for transoirt,stood stilll
+22,6162,Julio Antonio Gonzalez,middle,blue,4,4,0,0,0,0,0,0,park,no,no,algae focused and can only score in the proccesor,no auto
+18,6162,Gaurav,processor,red,4,4,0,0,0,0,0,0,failed,no,no,only did algae, pretty slow,taxi
+9,6162,Louis,processor,red,0,4,0,0,0,0,0,0,park,no,no,It is s very slow and can only score processor, but is very consistent,doesnt move
+22,6162,Brian,middle,blue,0,4,0,0,0,0,0,0,park,no,no,only scored using processor,nothing
+30,6162,Vincent Trang,opposite,red,0,0,0,0,0,0,0,0,park,no,no,Plays defense,auto only moves past the line.
+22,6162,Joseph Umana,middle,blue,4,4,0,0,0,0,0,0,park,no,no,all algae. Very good with processor goals.,backs up into reef, no score
+34,6632,Beckald,middle,red,0,0,1,0,0,0,0,6,park,no,yes,Affiant at getting L4,Taxi
+38,6632,Matt,middle,red,0,0,0,0,0,0,0,1,low,no,yes,got coral stuck on and had to climb early, removed algae,L3
+28,6632,Matt,middle,red,0,0,1,0,0,0,2,1,low,no,no,very good performance,L3
+P5,6632,Matin,opposite,blue,0,0,0,0,0,0,0,0,park,no,no,No comments,dashed forward and stopped
+P2,6632,Matin,opposite,blue,0,0,0,0,0,0,0,1,park,no,no,elevator wasn't working.,got out of starting position and stopped
+8,6632,Matin,opposite,blue,0,0,0,0,1,0,0,4,park,no,no,No comments,did nothing
+5,6632,Matin,opposite,blue,0,0,1,0,1,0,1,1,park,no,no,no auto, struggled to lift coral to level 4, and got coral stuck in the robot mid game,dashed foreward
+P5,6632,Abir Khaund-Hazarika,opposite,blue,1213,1243,18,1250,1002,1078,1117,1210,low,no,yes,How did they do this?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????,move towards reef
+12,6632,Nishant Shah,opposite,red,0,0,0,0,0,0,0,3,park,no,no,this is us, and we did well :D,No comments
+41,6632,Julio Antonio Gonzalez,middle,blue,0,0,0,0,0,0,0,2,low,no,no,auto still needs to be worked on,we bumped the wall and did not get the auto points
+23,6632,Julio Antonio Gonzalez,middle,blue,0,0,0,0,1,0,0,3,low,no,no,auto still needs work and the robot was kind of unstable,auto still needs work
+19,6632,Julio Antonio Gonzalez,middle,blue,0,0,0,0,0,0,0,2,park,no,no,climb and auto still needs work,auto not able to get lvl 4
+23,6632,Marcus,middle,blue,0,0,2,0,0,0,0,3,low,yes,no,We finally got the climb, still need to work on auto accuracy,stopped too far away
+19,6632,Marcus,middle,blue,0,0,0,0,0,0,0,2,park,yes,no,did not manage to climb, auto may be a bit too fast on the entry,missed
+23,6632,Joseph Umana,middle,blue,0,0,1,0,0,0,0,3,low,no,no,DEEP CLIMBED REALLY HIGH WE ARE INSANE. Red took the game. Salvaged a point. Each score requires percision and time.,backed up, failed to score L4 (elevator descended)
+19,6632,Joseph Umana,middle,blue,0,0,1,0,0,0,0,2,park,no,no,Also took down a decent amount of leaves, decent performance,went back, almost scored L4
+39,6725,Matin,opposite,blue,0,0,2,0,0,0,0,7,park,no,no,only do l4, very consistent for the most part. Parked, and they are trying to get one l4 in auto but it didn't work this match,missed l4
+29,6725,Matin,opposite,blue,0,0,3,0,0,0,0,5,park,no,no,took their time on lvl 4 corals but missed two. only attempted lvl 4's. missed another lvl 4 in auto,dashed forward
+9,6725,Matin,opposite,blue,0,0,1,0,0,0,0,9,failed,no,no,their auto almost worked, but overall they were very consistent on lvl 4's and got 9,missed level 4, almost got the second one
+34,6725,Matin,opposite,blue,0,0,1,0,0,0,0,5,failed,no,no,consistent and smooth lvl 4,1 lv4 4, not bad
+24,6725,Vincent Trang,opposite,red,0,0,0,0,0,0,0,4,failed,no,no,robot can score many l4,auto works but missed l4
+13,6725,Yusef Mayahi,opposite,red,0,0,0,0,0,0,2,7,high,yes,no,had a good 7 cycle time. did not miss at all,got 2 cycles of lvl 4
+16,6725,Nishant Shah,opposite,red,0,0,0,0,1,0,0,0,park,yes,no,Played defense for the most part,No comments
+43,6725,Yusef,opposite,red,0,0,0,0,0,0,0,0,failed,yes,no,robot 10 secs into the game seems to have some issues. It looked like the arm would not work and dispense the coral. they then moved to play defense. Robot seemed to be struggle defending. it was pushed around,went to level for but did not drop coral
+15,6851,marcus,middle,blue,0,0,0,0,2,0,0,0,park,yes,no,Kind of mediocre, nothing special, they couldn't get L4s,didn't move in auto
+42,6854,Louis,middle,red,0,0,1,0,5,0,0,0,park,no,no,could only do l1 and intake was shaky but when it worked it had relatively fast cycles,in position to l1
+2,6854,Becky,middle,red,0,0,0,0,0,0,0,0,park,yes,yes,Robot used only defense, could not score on any level,fail L1
+12,6854,Louis booey,middle,red,0,0,0,0,0,0,0,0,park,no,no,Broke down for the first minute, then played defense. At least they didn't get a penalty,didnt move
+22,6854,Yusef Mayahi,opposite,red,0,0,0,0,0,0,0,0,park,no,no,No comments,did nothing
+16,6854,Julio Antonio Gonzalez,middle,blue,0,0,0,0,5,0,0,0,park,no,no,unable to reach the higher levels of the coral structure,no auto
+25,6854,Julio Antonio Gonzalez,middle,blue,0,0,0,0,0,0,0,0,failed,no,no,defense only, got beached,no auto
+30,6854,Julio Antonio Gonzalez,middle,blue,0,0,0,0,0,0,0,0,failed,no,no,stopped working randomly,no auto
+25,6854,Brian,middle,blue,0,0,1,0,0,0,0,0,failed,no,no,played decent defense but then got stuck under an algae ball.,moved forward quickly but didn't score anything
+30,6854,Brian,middle,blue,0,0,0,0,0,0,0,0,failed,yes,no,straight up didn't move the whole game,didn't even move
+16,6854,Joseph Umana,middle,blue,0,0,2,0,4,0,0,0,park,no,no,no elevator,,goes back, fails to drp L1
+25,6854,Joseph Umana,middle,blue,0,0,1,0,0,0,0,0,failed,no,no,Got stuck on an algae ;(,backs into reef, shivering and not dropping coral
+18,6875,Becky,middle,red,0,0,0,0,0,2,0,0,park,no,yes,had trouble pick up coral,Taxi
+40,6875,Matin,opposite,blue,0,0,0,0,0,1,0,0,park,no,no,scored a l2 then went to go play defense. Got stuck for most of the match with an opponent robot then parked.,dashed forward
+24,6875,Matin,opposite,blue,0,0,1,0,0,1,0,0,failed,no,no,was just driving around (not playing defense). Only attempted two shots and didn't even park,dashed forward
+2,6875,Nishant Shah,opposite,red,1,0,1,0,0,0,0,0,park,no,no,didnt score any coral, spent a lot of time reloading, and still dropped it,auto is off
+9,6875,Julio Antonio Gonzalez,middle,blue,0,0,0,0,1,1,0,0,park,no,no,slow and spent most of the match in the coral distribution system,auto does not work well
+28,6875,Julio Antonio Gonzalez,middle,blue,0,0,0,0,0,0,0,0,park,no,no,played defense whole match,no auto
+36,6875,Julio Antonio Gonzalez,middle,blue,0,0,0,0,0,0,0,0,park,no,no,was too slow to score anything,no auto
+15,6875,Vedant Kansara,processor,red,0,2,0,0,0,0,0,0,park,no,yes,Primarily helped teammates, failed several processor goals,Did nothing
+practice4,6875,Marcus,middle,blue,0,0,1,0,0,0,0,0,failed,yes,no,Poor coral receiving  accuracy, poor coral placing accuracy,Drove into the coral for a few sec
+9,6875,Marcus,middle,blue,0,0,0,0,0,1,0,0,park,no,no,bad colletcion system bad coordination, very slow process overall,bad auto crashed immediately into coral reef
+28,6875,Marcus,middle,blue,0,0,0,0,0,0,0,0,failed,no,no,was basically wandering the arena for half the game, then played mediocre defense,stopped at coral
+36,6875,Marcus,middle,blue,0,0,1,0,0,1,0,0,park,yes,no,Was pretty much overshadowed by 4678 because of how slow they were,moved towards coral but did nothing afterwards
+22,7136,matt,middle,red,0,0,0,0,0,0,0,0,failed,yes,no,coral got stuck in auto, stood still for a while before playing bad counter defense,L4 miss, coral got stuck 0_0
+36,7136,Becky,middle,red,0,0,0,0,0,0,3,0,failed,yes,no,unstable when up,Taxi
+P3,7136,Becky,middle,red,0,0,2,0,2,0,0,0,park,no,no,Slow but steady, not very accurate, Slow removal of algae,Taxi
+11,7136,Justin,middle,red,0,0,0,0,0,1,0,0,failed,no,no,Coral stuck. Play defense. Kinda mid defense. Sat at one coral station. THen moved, not guarding anythinh,Nothing
+26,7136,Julio Antonio Gonzalez,middle,blue,0,0,0,0,1,3,0,0,park,no,no,was kind of slow and not able to score many points,no auto
+6,7136,Julio Antonio Gonzalez,middle,blue,0,0,0,0,0,0,1,0,failed,no,no,slow and unable to score many points,no effective auto
+3,7136,Julio Antonio Gonzalez,middle,blue,0,0,0,0,0,0,0,0,park,no,no,was very slow and unable to score any points,slow auto and missed a lvl 4
+3,7136,Marcus,middle,blue,0,0,0,0,0,0,0,0,park,no,no,Only removed algae,Tried doing l4 and missed
+26,7136,Brian,middle,blue,0,0,4,0,0,1,0,0,park,no,no,missed most of their coral and dropped alot of coral at dropoff.,moved towards coral but did nothing afterwards
+6,7136,Brian,middle,blue,0,0,2,0,1,0,1,0,failed,no,no,Not good at l4,slow auto and missed scoring l4
+32,7136,Yusef Mayahi,opposite,red,0,0,0,0,0,0,0,0,park,yes,no,played def the whole game,stood still
+P1,8081,Matt,middle,red,0,0,3,0,1,0,3,3,park,no,no,got corals stuck,2 L4
+26,8081,Matin,opposite,blue,0,0,3,0,0,0,3,1,low,no,no,took a long time and end up missing a lot. Good barge but they missed both lvl 4 in auto. Focused on middle levels the whole game,dashed forward
+23,8081,Matin,opposite,blue,0,0,0,0,0,0,0,4,park,no,no,focused on level 4's the whole game, took their time, missed 2 lv4 in auto,dashed forward
+10,8081,Matin,opposite,blue,0,0,2,0,0,0,0,7,low,no,no,great barge, auto was almost perfect, and pretty good at level 4's,missed the first, but got the second level 4
+16,8081,Matin,opposite,blue,0,0,1,0,1,2,0,2,park,no,no,really versatile. they also helped take off some algae and were consistent overall,2 level 4's
+7,8081,Vincent Trang,opposite,red,0,0,0,0,0,0,0,4,park,no,no,Struggles getting coral when defense is invovled.,auto doesnt work
+3,8081,Vincent Trang,opposite,red,0,0,0,0,0,0,0,3,park,no,no,auto works perfectly but driver seems to struggle with scoring l4s, often drops the coral4,auto works flawlessly almost scoring 2 l4s
+p4,8081,Vincent Trang,opposite,red,0,0,0,0,0,2,2,2,low,yes,no,Downside is the robot has to turn in order to get coral.,missed a l4 at the started but later made one in later.
+42,8081,Julio Antonio Gonzalez,middle,blue,0,0,0,0,1,1,3,0,low,no,no,intake is kind of slow,no auto
+practice3,8081,Marcus,middle,blue,0,2,3,0,0,1,2,2,low,no,no,Lots of misses at the beginning but then they locked in, they were pretty fast, does both processor and coral,Missed goal
+41,8081,Marcus,middle,blue,0,0,2,0,1,1,4,0,low,no,no,Good, but needs work on consistency; would prefer more L4 points though,slow and missed l4 in auto
+36,8081,Yusef Mayahi,opposite,red,0,0,2,0,0,0,1,3,low,no,no,struggling to line up lvl 4 coral,went for lvl 4 auto but missed
+31,8081,Nishant Shah,opposite,red,0,0,1,0,0,3,4,0,park,no,no,Fast, precise, only fumbled once, aimed at level 3 for the most part,No comments
+39,8789,Louis,middle,red,0,1,0,0,0,0,0,0,park,no,no,only did 1 cycle of processor the entire game, can barely and I want to emphasise BARELY pick up the algae. by the end they stopped bothering to pick it up and opted to push it to the processor instead,doesn't move
+27,8789,Justin,middle,red,0,0,0,0,0,0,0,0,park,no,no,Played counter defense. Litterally useless,Taxi
+10,8789,Justin,middle,red,0,1,0,0,0,0,0,0,park,no,no,Ran around. can only pick up algae from the ground.,Taxi
+31,8789,Richard Apel,processor,blue,0,2,0,0,0,0,0,0,park,no,yes,No comments,No comments
+15,8789,Matin,opposite,blue,0,0,0,0,0,0,0,0,low,no,no,played defense the whole game, didn't do much. their barge was pretty good thought],did nothing
+36,8789,Matin,opposite,blue,0,0,0,0,0,0,0,0,park,yes,no,played defense the whole time, didn't add much value,dashed forward and stopped
+22,8789,Matin,opposite,blue,0,0,0,0,0,0,0,0,park,no,no,went to play defense then just stopped moving mid match. Last ten seconds started moving again and went to park.,dashed forward and stopped
+18,8789,Julio Antonio Gonzalez,middle,blue,1,1,0,0,0,0,0,0,low,no,no,can only do algae but can only do low level algae and have to put them in the processor,no auto
+18,8789,Marcus,middle,blue,0,1,0,0,0,0,0,0,park,yes,no,mediocre at processor, very slow, single purpose robot,moved to reef
+18,8789,Joseph Umana,middle,blue,0,1,0,0,0,0,0,0,park,no,yes,algae focused, almost climbed,goes back, no coral scored
+32,10514,Matt,middle,red,0,0,0,0,0,4,0,0,park,yes,no,takes forever to get to the level 2,L1
+23,10514,Richard Apel,processor,blue,0,0,0,0,0,4,0,0,park,no,no,Slow and disoriented,Level 1
+39,10514,Richard Apel,processor,blue,0,0,0,0,1,3,0,0,failed,no,no,No comments,No comments
+14,10514,Richard Apel,opposite,blue,0,0,0,0,1,3,0,0,failed,no,no,No comments,level 1
+28,10514,Matin,opposite,blue,0,0,1,0,0,3,0,0,failed,no,no,only focused on lvl 2, very slow,dashed forward
+20,10514,Matin,opposite,blue,0,0,2,0,2,5,0,0,failed,no,yes,focused on getting rid of algae then doing l2/1 coral. Very slow and inefficient,did nothing
+10,10514,Louis,processor,red,0,0,1,0,1,3,0,0,failed,no,no,modified kitbot, could only score l2 and l1 but the driver was pretty good.,Goes into position doesnt move arm
+p2,10514,sabrina and yasmin,processor,red,0,0,2,0,0,1,0,0,park,no,no,Slow and inacurate,No comments
+4,10514,sabrina & yasmin,processor,red,0,0,0,0,0,2,0,0,failed,no,no,elevator thing goes up so slow, only level 2,No comments
+35,10514,Vincent Trang,opposite,red,0,0,0,0,1,0,0,0,failed,yes,no,Plays defense most of the game, kinda slow as well. Hopper isnt that well often dropping the coral.,auto moves but doesn't score.
+33,10579,Matt,middle,red,0,0,2,0,4,0,0,0,failed,no,no,kitbot ^u^,Taxi
+7,10579,Justin,middle,red,0,0,0,0,0,0,0,0,failed,no,no,No Show,No comments
+1,10579,Becky,middle,red,0,0,1,0,3,0,0,0,park,yes,no,Coral got stuck, carried multiple game pieces. Very slow,taxi
+43,10579,Matin,opposite,blue,0,0,3,0,2,0,0,0,park,no,no,Is only made for l1, but missed more l1 than it made. Very inneficient,dashed forward
+p2,10579,Yusef Mayahi (the goat),opposite,red,0,0,0,0,1,0,0,0,park,no,no,defended whole game, is a kit bot,went slow ot lvel 0
+15,10579,Julio Antonio Gonzalez,middle,blue,0,0,0,0,6,0,0,0,park,no,no,no access to higher levels of coral can only score lvl 1,no auto
+38,10579,Julio Antonio Gonzalez,middle,blue,0,0,0,0,0,0,0,0,park,no,no,algae focused and can only score in the proccesor,no auto
+19,10579,Gaurav,processor,red,0,1,1,0,5,0,0,0,park,no,no,really inefficient at catching coral,taxi
+practice5,10579,Brian,middle,blue,0,0,0,0,0,0,0,0,park,no,no,Played defend for the entire match by blocking other team processor.,drove forward towards the coral then stopped moving and scored no points
+38,10579,Marcus,middle,blue,0,0,2,0,2,0,0,0,park,yes,no,Can only do L1, and had a coral stuck in body so couldn't score for most of game,scored L1
+15,10579,Joseph Umana,middle,blue,0,0,3,0,6,0,0,0,park,no,no,Only L1 (no elevator), missed some coral, gets coral from side, and drops it in,auto drops L1
+5,10611,Becky,middle,red,0,0,1,0,0,0,0,0,park,yes,yes,Weak driving, Robot could not hold coral, robot parked within 1 minute,Taxi
+29,10611,Richard Apel,processor,blue,0,0,1,0,2,0,0,0,park,no,no,disoriented,Did nothing
+40,10611,Richard Apel,processor,blue,0,0,1,0,5,0,0,0,park,no,no,No comments,Did nothing
+37,10611,Matin,opposite,blue,0,0,0,0,0,0,0,0,park,yes,no,played defense the whole game, didn't do much except park,dashed forward
+18,10611,Matin,opposite,blue,0,0,0,0,0,0,0,0,park,yes,no,played defense the whole time, not too bad but not much to say.,dashed forward
+14,10611,Yusef Mayahi,opposite,red,0,0,0,0,1,0,0,0,park,yes,no,robot arm looks like it did not work. olayed def the whole game. no robot went to the coral station they were gaurding,drove to l1 and stood there
+,,,,,,,,,,,,,,,,,
+matchNumber,teamNumber,scoutId,teamPosition,teamColor,num_human_goals,num_processor_goals,num_missed_goals,num_net_goals,num_l1,num_l2,num_l3,num_l4,climbLevel,penalty,coopertition,comments,autoComments
+49,5912,Matt,middle,red,0,0,1,0,0,0,0,10,failed,no,no,very fast, unstable though,Miss L4
+51,6854,Justin,middle,red,0,0,6,0,2,0,0,0,failed,no,no,Terrible intake. Shoots coral out and misses l1. I swear a kitbot would be better,taxi
+50,6632,Matt,middle,red,0,0,2,0,0,0,1,2,park,no,no,fail hang due to algae,fail l4
+48,4617,Justin,middle,red,0,0,0,0,0,0,0,0,failed,no,no,Defense. Went to one coral station and disconnected. Not defending anything.,miss l1
+52,7136,Louis,middle,red,0,0,0,0,0,0,0,0,park,no,no,played defence ok,taxi
+57,4940,Justin,middle,red,0,6,0,0,0,0,0,0,low,no,yes,30 sec deep climb,1 l1
+53,5689,Louis,middle,red,0,3,1,0,0,0,0,0,park,no,yes,only did processor, for some reason scored in the other teams processor when we already had coopertition which was weird. decent but only had 3 cycles,taxi
+46,1229,Justin,middle,red,0,0,1,0,6,2,0,0,park,no,no,takes like 5 sec to line up l2-l4. Inaccurate at l2-l4. falls into l1.,1 l4
+45,6854,Justin,middle,red,0,0,4,0,2,1,0,0,park,no,no,Bad intake. Cannot consistently score l1.,l1
+54,8789,Louis,middle,red,0,0,0,0,0,0,0,0,park,no,no,ok defence not much to say,doesn't move
+55,5912,Justin,middle,red,0,0,1,0,0,1,1,5,failed,no,no,Tell the coral person that she can use both hands and to give coral to 2 different bots.,1 l4
+58,3756,Justin,middle,red,0,6,0,0,0,0,0,0,low,no,yes,Struggled to put algae in processor sometimes. Cannot pick up algae on reef. 30 sec deep climb,taxi
+44,7136,Matt,middle,red,0,0,3,0,0,2,0,0,park,no,yes,very slow, sometimes did nothing,Taxi
+56,2634,Matt,middle,red,0,0,1,0,2,3,0,0,park,no,no,No comments,taxi
+matchNumber,teamNumber,scoutId,teamPosition,teamColor,num_human_goals,num_processor_goals,num_missed_goals,num_net_goals,num_l1,num_l2,num_l3,num_l4,climbLevel,penalty,coopertition,comments,autoComments
+96,4940,Ryleigh/Brian/Marcus,middle,blue,0,4,0,0,1,0,0,0,low,yes,yes,Good at processor,l1 auto
+66,2706,Marcus/Brian,middle,blue,0,0,0,0,0,0,5,1,failed,no,yes,decent coral robot, mostly does l3,bro moved and did nothing
+70,771,Ryleigh/Brian/Marcus,middle,blue,0,0,1,0,0,0,0,0,park,yes,no,played defense for last 30 sec, only scored L1s, decent accuracy,missed L1
+99,1285,Ryleigh/Brian/Marcus,middle,blue,0,0,3,2,1,4,4,1,failed,no,no,Good at coral and net,l4 auto
+45,9262,Marcus/Brian,middle,blue,0,1,1,0,0,0,0,0,park,no,yes,kind of sucks,Tried doing l4 and missed
+9,4940,Marcus/Brian,middle,blue,0,9,0,0,1,0,0,0,low,no,yes,Very good at processor,l1 auto
+60,5719,Marcus/Brian,middle,blue,0,0,1,0,0,0,3,0,park,yes,yes,Ok defense, ok at coral,bro moved and did nothing
+43,1285,Marcus/Brian,middle,blue,0,2,5,0,0,0,5,2,failed,yes,yes,Good at coral, inconsistent auto,also missed net , Tried doing l4 and missed
+26,8089,Marcus/Brian,middle,blue,0,2,0,2,0,2,2,0,low,no,no,Very good at handling algae; net and processor :),algae net auto
+44,4763,Marcus/Brian,middle,blue,0,0,0,0,0,0,0,0,park,no,no,is not moving kinda sucks immediately parked,did not move
+41,7659,Marcus/Brian,middle,blue,0,0,0,0,4,0,0,0,low,no,no,can only do l1 but can also do deep climb, overall a bad bot,bro moved and did nothing
+72,5912,Ryleigh/Brian/Marcus,middle,blue,0,0,1,0,0,0,2,7,failed,yes,yes,Very good at L4,l4 auto
+85,8349,Ryleigh/Brian/Marcus,middle,blue,0,5,0,0,0,0,0,0,low,no,no,Good at processor,bro moved and did nothing
+18,5719,Marcus/Brian,middle,blue,0,0,2,0,0,0,0,0,park,yes,no,kind of sucks, plays mediocre defence,bro moved and did nothing
+69,2708,Ryleigh/Brian/Marcus,middle,blue,0,0,1,0,0,7,0,0,failed,no,no,can only take out algae and do L2 coral,Tried doing l4 and missed
+58,2706,Marcus/Brian,middle,blue,0,0,0,1,0,1,2,3,park,no,yes,pretty slow for everything though,l4 auto
+36,9262,Marcus/Brian,middle,blue,0,0,2,0,0,1,0,2,failed,no,yes,pretty bad considering it only got 2 L4s, slow,bro moved and did nothing
+77,5032,Ryleigh/Brian/Marcus,middle,blue,0,3,1,0,0,1,4,0,failed,no,yes,ok at coral, can do processor,bro moved and did nothing
+20,1241,Marcus/Brian,middle,blue,0,0,3,2,0,6,6,6,park,no,no,Very good at l2,l3,14 can also clear algae and net !!!,three l4 auto
+75,10015,Ryleigh/Brian/Marcus,middle,blue,0,0,4,0,2,0,0,0,park,no,yes,kinda bad at everything,bro moved and did nothing
+27,9525,Marcus/Brian,middle,blue,0,0,1,0,7,0,0,0,failed,no,no,pretty mediocre can only do L1,bro moved and did nothing
+48,7558,Marcus/Brian,middle,blue,0,0,1,4,1,3,3,2,park,no,yes,Really good at net, and everything else (L2,3,4),l4 auto
+17,2634,Marcus/Brian,middle,blue,0,0,0,0,0,0,0,0,park,no,no,Very good defence,bro moved and missed L1
+71,2198,Ryleigh/Brian/Marcus,middle,blue,0,0,4,0,0,0,2,4,park,yes,yes,Inaccurate with the coral,l4 auto
+32,2852,Marcus/Brian,middle,blue,0,0,3,0,1,0,4,0,park,no,no,decent coral bot but had a little trouble with coral intake near start of game,missed l4
+54,771,Marcus/Brian,middle,blue,0,0,1,0,0,0,0,0,park,yes,yes,Pretty bad , it played defense for entire gaem after missing L1 auto,missed L1 auto
+10,5719,Marcus/Brian,middle,blue,0,0,2,0,0,0,0,1,park,no,no,bad at processor, got easily stuck with coral and played defence after getting stuck with coral, overall bad bot,bro moved and did nothing
+92,10218,Ryleigh/Brian/Marcus,middle,blue,0,2,1,0,4,0,0,0,park,yes,no,Good at L1 and ok at processor,l1 auto
+25,5912,Marcus/Brian,middle,blue,0,1,2,0,0,1,3,3,failed,yes,yes,Very smooth, good at auto very consistent L4,l4 auto
+4,7136,Marcus/Brian,middle,blue,0,0,1,0,0,1,2,0,park,no,no,cannot score l4, takes a while to put coral, played defense near end,bro moved and did nothing
+100,7757,Ryleigh/Brian/Marcus,middle,blue,0,3,0,0,1,0,0,0,park,yes,yes,decent at processor and defending,bro moved and did nothing
+34,1285,Marcus/Brian,middle,blue,0,2,1,0,0,4,2,0,failed,yes,yes,decent processor and coral bot, nothing too special about them,one l4 and one missed net
+53,7757,Marcus/Brian,middle,blue,0,0,1,0,2,0,0,0,park,yes,yes,kinda sucks lowkey at everything,bro moved and did nothing
+46,7136,Marcus/Brian,middle,blue,0,0,2,0,0,0,0,2,park,no,no,mediocre, played defence,l4 auto
+94,2706,Ryleigh/Brian/Marcus,middle,blue,0,0,1,0,0,1,2,3,failed,no,no,good at corals,No comments
+21,8089,Marcus/Brian,middle,blue,0,0,2,3,0,0,3,0,low,no,no,Good at net auto decent corals,net
+55,2935,Marcus/Brian,middle,blue,0,0,0,0,0,0,0,8,low,yes,no,Very good at L4 very accurate,l4 auto
+90,1305,Ryleigh/Brian/Marcus,middle,blue,0,0,2,0,3,0,5,1,failed,yes,no,Good at L3 coral,l4 auto
+63,10167,Ryleigh/Brian/Marcus,middle,blue,0,0,1,0,13,0,0,0,park,yes,no,Very good and accurate for L1,l1 auto
+33,5912,Marcus/Brian,middle,blue,0,0,3,0,1,1,1,3,park,no,no,decent coral bot but started tweaking out for like 20 seconds near coral intake.,missed one l4
+98,6135,Ryleigh/Brian/Marcus,middle,blue,0,0,0,0,0,4,4,0,park,no,yes,Good at l2 and l3,bro moved and did nothing
+39,4940,Marcus/Brian,middle,blue,0,9,0,0,1,0,0,0,low,no,yes,Very good at processor,scored one l1
+29,8731,Marcus/Brian,middle,blue,0,0,0,0,1,0,0,0,park,no,yes,Cn only do L1, not ideal; did mediocre defence,bro didn't even move
+73,8731,Ryleigh/Brian/Marcus,middle,blue,0,0,1,0,0,0,0,0,park,no,yes,PLayed defense after missing auto,bro moved and did nothing
+64,8349,Marcus/Brian,middle,blue,0,3,1,0,0,0,1,0,low,no,no,Tried to force Coopertition, ok at algae,bro moved and did nothing
+14,10218,Marcus/Brian,middle,blue,0,0,2,0,3,0,0,0,park,yes,no,not ideal, only did L1s and then played defence, missed a couple l1s,l1 auto
+15,2852,Marcus/Brian,middle,blue,0,0,1,0,0,0,0,3,park,no,no,Kinda bad coral intake so mediocre,bro dropped coral
+11,2708,Marcus/Brian,middle,blue,0,0,2,0,0,0,1,0,park,no,yes,coral intake sucks 1/8, cannot place coral, wandered arena for a while too >:(,bro moved and missed l4
+67,8089,Marcus/Brian,middle,blue,0,4,0,4,1,0,0,0,low,no,yes,only does processor and net, overall a decent bot,one l1 and one net
+76,7475,Ryleigh/Brian/Marcus,middle,blue,0,0,5,0,1,1,1,3,park,yes,no,ok at coral,bro moved and did nothing
+65,5912,Ryleigh/Brian/Marcus,middle,blue,0,2,1,0,0,2,2,3,park,no,yes,They are good at L4,l4 auto
+47,7757,Marcus/Brian,middle,blue,0,3,0,0,0,0,0,0,park,yes,yes,kinda sucks struggled with processor,bro didn't even move
+50,2852,Marcus/Brian,middle,blue,0,0,1,0,0,0,1,4,failed,no,yes,good at L4 bad at processor,bro moved and did nothing4
+51,1305,Marcus/Brian,middle,blue,1,0,2,0,0,2,0,3,failed,yes,yes,decent at corals,l4 auto
+57,10015,Marcus/Brian,middle,blue,0,0,0,0,1,0,0,0,failed,yes,yes,removed algae the whole time, overall they were trash,one l1
+74,9262,Ryleigh/Brian/Marcus,middle,blue,0,0,1,0,0,0,0,1,park,yes,no,Bad auto, played defense,bro moved and did nothing
+62,10015,Ryleigh/Brian/Marcus,middle,blue,0,0,1,0,4,0,0,0,park,yes,no,played defense for last 30 sec, only scored L1s, decent accuracy,l1 auto
+42,5032,Marcus/Brian,middle,blue,0,2,1,0,1,3,1,0,failed,no,yes,Good at processor,auto L1
+28,10027,Marcus/Brian,middle,blue,0,0,0,0,0,0,0,0,failed,yes,no,Bro has ramming into the enemies bots as defence XD,bro didn't even move
+40,8089,Marcus/Brian,middle,blue,0,3,0,5,1,0,0,1,park,no,yes,can do l4 but mainly does processor and net, overall a pretty good bot,one l1 and one net
+68,1285,Marcus/Brian,middle,blue,0,2,2,4,1,0,2,2,failed,no,yes,balanced bot, can do everything, overall a good bot,one l4 and missed one net
+56,5912,Marcus/Brian,middle,blue,0,0,0,0,0,0,0,11,failed,no,yes,Very clean auto,l4 auto
+78,771,Ryleigh/Brian/Marcus,middle,blue,0,0,0,0,0,0,0,0,failed,yes,no,Played bad defence entire game, sucks ass afked the game at enemy coral deposit fr,bro didn't even move
+49,4940,Marcus/Brian,middle,blue,0,6,0,0,1,0,0,0,low,no,yes,Good at processor,l1 auto
+91,2198,Ryleigh/Brian/Marcus,middle,blue,0,0,2,0,0,1,4,4,park,yes,no,Really good at L4 and L3,l4 auto
+97,5912,Ryleigh/Brian/Marcus,middle,blue,0,0,2,0,0,0,0,7,failed,no,yes,Good at L4,l4 auto
+59,10554,Marcus/Brian,middle,blue,0,0,1,0,1,2,6,0,park,no,no,Very good at L3,l1 auto
+6,7659,Marcus/Brian,middle,blue,0,0,0,0,7,0,0,0,low,no,no,very consistent with L1, and can do deep climb, CAN ONLY DO L1,bro moved and did nothing
+7,8349,Marcus/Brian,middle,blue,0,3,0,0,0,0,0,0,park,no,yes,They had a coral stuck in them, spent a quarter of the match doing nothing important, did algae,bro moved and did nothing
+31,10167,Marcus/Brian,middle,blue,0,0,0,0,4,0,0,0,park,yes,yes,kitbot, can only do L1 then switched to defence for rest of game.,bro moved and scored l1
+24,6632,Marcus/Brian,middle,blue,0,0,0,0,0,0,0,1,low,no,no,we had a coral stuck in our body,Tried doing l4 and missed
+3,2852,Marcus/Brian,middle,blue,0,0,1,0,0,0,0,6,park,no,no,good at L4, and cleared algae; accurate overall,Got l4
+79,10218,Ryleigh/Brian/Marcus,middle,blue,0,1,3,0,5,0,0,0,park,no,no,kinda mid bc it only does L1; like 60%accurate,bro moved and did nothing
+1,9262,Marcus/Brian,middle,blue,0,0,5,0,0,0,0,1,park,no,no,Very slow and inaccurate,Tried doing l4 and missed
+13,5024,Marcus/Brian,middle,blue,0,0,2,0,0,1,3,3,low,no,no,good at l4 and l3,l4 auto
+61,1305,Marcus/Brian,middle,blue,0,0,2,0,1,2,5,2,failed,no,yes,Very good at corals,L4 auto
+16,8089,Marcus/Brian,middle,blue,0,1,0,3,0,3,0,0,low,no,no,very good and creative auto, very good at collecting & scoring algae,l1 auto and net auto
+2,7475,Marcus/Brian,middle,blue,0,0,2,0,2,3,2,2,park,yes,no,decent, with weird bot design kind of like a cherry picker design,bro moved and did nothing
+8,1285,Marcus/Brian,middle,blue,0,1,1,0,0,3,3,1,failed,no,no,can take out algae can do processor and can do coral,bro moved and did nothing
+93,7659,Ryleigh/Brian/Marcus,middle,blue,0,0,0,0,1,0,0,0,low,yes,no,Played defence after auto,bro didn't even move
+35,2198,Marcus/Brian,middle,blue,0,0,1,0,0,3,4,1,park,yes,yes,decent coral bot, nothing too special about them,one l4
+30,7757,Marcus/Brian,middle,blue,0,2,0,0,0,0,0,0,park,yes,yes,kind of sucks at processor and then ended up playing defence for like half of the game,bro moved and did nothing
+12,5031,Marcus/Brian,middle,blue,0,0,3,0,3,0,1,0,park,no,no,Pretty mediocre only can mostly L1, bad coral intake,l1 auto
+52,1285,Marcus/Brian,middle,blue,0,0,1,0,0,1,1,5,failed,yes,no,Good at coral,l4 auto
+38,9525,Marcus/Brian,middle,blue,0,0,1,0,10,0,0,0,park,no,no,very consistent with L1, CAN ONLY DO L1,bro moved and did nothing
+5,5719,Marcus/Brian,middle,blue,0,0,1,0,0,0,2,0,park,yes,yes,sucks at everything; intake innacurate; coral placement horrible; very slow like theyre lost,bro didn't even move
+89,9659,Ryleigh/Brian/Marcus,middle,blue,0,0,0,0,1,0,0,0,park,yes,no,Great defence, disrupted coral intake of opponents,l1 auto

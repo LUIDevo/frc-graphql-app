@@ -1,0 +1,343 @@
+    <div id="page-pickstrat" class="page">
+      <div class="page-header">
+        <div class="page-header-title">
+          <div class="t-title">Pick Strategy</div>
+          <div class="t-small" style="margin-top:3px;">Alliance selection · who to pick, when, and who's available</div>
+        </div>
+        <span class="event-tag t-mono">2026ontor</span>
+        <button class="btn btn-grey btn-sm btn-mono">⟳ Refresh</button>
+      </div>
+
+      <!-- Situation bar — 6 cells -->
+      <div class="situation-bar" style="grid-template-columns:repeat(6,1fr);margin-bottom:16px;">
+        <div class="situation-card">
+          <div class="t-label" style="margin-bottom:4px;">Qual rank</div>
+          <div class="situation-val">5th</div>
+          <div class="t-small">of 25 teams</div>
+        </div>
+        <div class="situation-card">
+          <div class="t-label" style="margin-bottom:4px;">Alliance</div>
+          <div class="situation-val">#5</div>
+          <div class="t-small">captain</div>
+        </div>
+        <div class="situation-card">
+          <div class="t-label" style="margin-bottom:4px;">R1 pick</div>
+          <div class="situation-val">5th</div>
+          <div class="t-small">of 8</div>
+        </div>
+        <div class="situation-card">
+          <div class="t-label" style="margin-bottom:4px;">R2 pick (snake)</div>
+          <div class="situation-val">4th</div>
+          <div class="t-small">of 8</div>
+        </div>
+        <div class="situation-card">
+          <div class="t-label" style="margin-bottom:4px;">Pool size</div>
+          <div class="situation-val" id="pool-size-val">21</div>
+          <div class="t-small" id="pool-size-sub">available</div>
+        </div>
+        <div class="situation-card">
+          <div class="t-label" style="margin-bottom:4px;">Marked gone</div>
+          <div class="situation-val" id="gone-count-val">0</div>
+          <div class="t-small">off the board</div>
+        </div>
+      </div>
+
+      <!-- Draft order / captain tracker -->
+      <div class="t-label" style="margin-bottom:8px;">Alliance captains · selection order</div>
+      <div class="draft-order-row">
+        <div class="draft-box gone-box">
+          <div class="draft-num">Alliance 1</div>
+          <div class="draft-team">1114</div>
+          <div class="draft-name">Simbotics</div>
+        </div>
+        <div class="draft-box gone-box">
+          <div class="draft-num">Alliance 2</div>
+          <div class="draft-team">2056</div>
+          <div class="draft-name">OP Robotics</div>
+        </div>
+        <div class="draft-box gone-box">
+          <div class="draft-num">Alliance 3</div>
+          <div class="draft-team">610</div>
+          <div class="draft-name">Crescent Crew</div>
+        </div>
+        <div class="draft-box gone-box">
+          <div class="draft-num">Alliance 4</div>
+          <div class="draft-team">4069</div>
+          <div class="draft-name">WARHawks</div>
+        </div>
+        <div class="draft-box you-box">
+          <div class="draft-num" style="color:var(--accent);">You · Alliance 5</div>
+          <div class="draft-team accent">6632</div>
+          <div class="draft-name" style="color:rgba(59,130,246,0.6);">Astro Falcons</div>
+        </div>
+        <div class="draft-box">
+          <div class="draft-num">Alliance 6</div>
+          <div class="draft-team" style="color:var(--text-muted);">?</div>
+          <div class="draft-name">rank 6</div>
+        </div>
+        <div class="draft-box">
+          <div class="draft-num">Alliance 7</div>
+          <div class="draft-team" style="color:var(--text-muted);">?</div>
+          <div class="draft-name">rank 7</div>
+        </div>
+        <div class="draft-box">
+          <div class="draft-num">Alliance 8</div>
+          <div class="draft-team" style="color:var(--text-muted);">?</div>
+          <div class="draft-name">rank 8</div>
+        </div>
+      </div>
+
+      <!-- Snake draft pick order visualization -->
+      <div class="t-label" style="margin-bottom:8px;margin-top:20px;">Snake draft pick order · your picks are highlighted</div>
+      <div class="pick-order-grid">
+        <!-- Header row -->
+        <div></div>
+        <div class="poc-hdr">Al. 1</div>
+        <div class="poc-hdr">Al. 2</div>
+        <div class="poc-hdr">Al. 3</div>
+        <div class="poc-hdr">Al. 4</div>
+        <div class="poc-hdr" style="color:var(--accent);">Al. 5 ★</div>
+        <div class="poc-hdr">Al. 6</div>
+        <div class="poc-hdr">Al. 7</div>
+        <div class="poc-hdr">Al. 8</div>
+
+        <!-- Round 1 → (picks 1-8) -->
+        <div class="poc-label">R1 →</div>
+        <div class="poc-cell poc-done"><span class="poc-pick">pick 1</span><span class="poc-team">1114</span></div>
+        <div class="poc-cell poc-done"><span class="poc-pick">pick 2</span><span class="poc-team">2056</span></div>
+        <div class="poc-cell poc-done"><span class="poc-pick">pick 3</span><span class="poc-team">610</span></div>
+        <div class="poc-cell poc-done"><span class="poc-pick">pick 4</span><span class="poc-team">4069</span></div>
+        <div class="poc-cell poc-you"><span class="poc-pick">pick 5</span><span class="poc-team">→ now</span></div>
+        <div class="poc-cell"><span class="poc-pick">pick 6</span><span class="poc-team" style="color:var(--text-muted);">?</span></div>
+        <div class="poc-cell"><span class="poc-pick">pick 7</span><span class="poc-team" style="color:var(--text-muted);">?</span></div>
+        <div class="poc-cell"><span class="poc-pick">pick 8</span><span class="poc-team" style="color:var(--text-muted);">?</span></div>
+
+        <!-- Round 2 ← snake (picks 9-16: Al.8 picks 9th, Al.1 picks 16th) -->
+        <div class="poc-label">← R2</div>
+        <div class="poc-cell"><span class="poc-pick">pick 16</span><span class="poc-team" style="color:var(--text-muted);">?</span></div>
+        <div class="poc-cell"><span class="poc-pick">pick 15</span><span class="poc-team" style="color:var(--text-muted);">?</span></div>
+        <div class="poc-cell"><span class="poc-pick">pick 14</span><span class="poc-team" style="color:var(--text-muted);">?</span></div>
+        <div class="poc-cell"><span class="poc-pick">pick 13</span><span class="poc-team" style="color:var(--text-muted);">?</span></div>
+        <div class="poc-cell poc-you"><span class="poc-pick">pick 12</span><span class="poc-team">4th</span></div>
+        <div class="poc-cell"><span class="poc-pick">pick 11</span><span class="poc-team" style="color:var(--text-muted);">?</span></div>
+        <div class="poc-cell"><span class="poc-pick">pick 10</span><span class="poc-team" style="color:var(--text-muted);">?</span></div>
+        <div class="poc-cell"><span class="poc-pick">pick 9</span><span class="poc-team" style="color:var(--text-muted);">?</span></div>
+
+        <!-- Round 3 → (picks 17-24: same order as R1) -->
+        <div class="poc-label">R3 →</div>
+        <div class="poc-cell"><span class="poc-pick">pick 17</span><span class="poc-team" style="color:var(--text-muted);">?</span></div>
+        <div class="poc-cell"><span class="poc-pick">pick 18</span><span class="poc-team" style="color:var(--text-muted);">?</span></div>
+        <div class="poc-cell"><span class="poc-pick">pick 19</span><span class="poc-team" style="color:var(--text-muted);">?</span></div>
+        <div class="poc-cell"><span class="poc-pick">pick 20</span><span class="poc-team" style="color:var(--text-muted);">?</span></div>
+        <div class="poc-cell poc-you"><span class="poc-pick">pick 21</span><span class="poc-team">5th</span></div>
+        <div class="poc-cell"><span class="poc-pick">pick 22</span><span class="poc-team" style="color:var(--text-muted);">?</span></div>
+        <div class="poc-cell"><span class="poc-pick">pick 23</span><span class="poc-team" style="color:var(--text-muted);">?</span></div>
+        <div class="poc-cell"><span class="poc-pick">pick 24</span><span class="poc-team" style="color:var(--text-muted);">?</span></div>
+      </div>
+
+      <!-- ── Notes + AI chat ── -->
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:4px;margin-bottom:24px;">
+
+        <!-- Notes scratch pad -->
+        <div class="card" style="padding:16px;display:flex;flex-direction:column;gap:10px;">
+          <div style="display:flex;align-items:center;justify-content:space-between;">
+            <div>
+              <div class="t-heading" style="margin-bottom:2px;">Strategy notes</div>
+              <div style="font-size:11px;color:var(--text-muted);">Scratch pad · think it out</div>
+            </div>
+            <button class="btn btn-ghost btn-xs">Clear</button>
+          </div>
+          <textarea class="ps-notes-area" rows="6" placeholder="Think through your draft — who to target, what you heard at lunch, fallback plans if 4069 gets taken early...">4069 is our top pick — consistent L2, good comms at practice day. 771 said they want to be on 2056's alliance but worth asking again before R1.
+
+If both are gone: 5031 is steady but no endgame. 9262 is a fast cycler, could pair well with our L3.</textarea>
+          <!-- Quick-add tags -->
+          <div style="display:flex;flex-wrap:wrap;gap:5px;">
+            <button class="ps-note-tag" onclick="this.closest('.card').querySelector('textarea').value += '\n[target] '">+ target</button>
+            <button class="ps-note-tag" onclick="this.closest('.card').querySelector('textarea').value += '\n[avoid] '">+ avoid</button>
+            <button class="ps-note-tag" onclick="this.closest('.card').querySelector('textarea').value += '\n[if gone] '">+ if gone</button>
+            <button class="ps-note-tag" onclick="this.closest('.card').querySelector('textarea').value += '\n[heard] '">+ heard</button>
+          </div>
+        </div>
+
+        <!-- AI strategy chat -->
+        <div style="display:flex;flex-direction:column;">
+          <div class="ai-panel">
+            <div class="ai-panel-hd">
+              <div class="ai-ready-dot"></div>
+              <span class="ai-panel-hd-title">AI Strategy</span>
+              <span class="ai-panel-hd-ctx">Draft advice · Alliance 5</span>
+              <button class="btn btn-ghost btn-xs" title="Refresh analysis" style="font-size:12px;padding:2px 7px;margin-left:4px;">↺</button>
+            </div>
+            <div class="ai-output">
+              <div class="ai-output-hd">
+                <span class="ai-output-badge">✦ Analysis</span>
+                <span class="ai-output-ctx">2026ontor · just now</span>
+              </div>
+              <div class="ai-output-body">
+                <span style="color:#22d3ee;">// Alliance 5 · pick 5 of 8</span><br /><br />
+                You're in a strong position. 4069 (184.7 OPR, L2 climb, σ 9) should be available — only A1–A4 pick before you, and they all have climb already.<br /><br />
+                <span style="color:#facc15;">⚠</span> 771 is the wildcard — heard they prefer A2's alliance. Have a backup ready.<br /><br />
+                <span style="color:var(--text-muted);">For R2 (pick 12 of 24): 5031 or 9262 gives you a clean scorer. Avoid 5678 — high variance.</span>
+              </div>
+            </div>
+            <textarea class="ai-panel-textarea" placeholder="Ask about your draft strategy…" rows="2"></textarea>
+            <div class="ai-panel-toolbar">
+              <div class="ai-panel-meta">✦ Gemini 2.5 Flash</div>
+              <button class="ai-ask-btn">Ask <span class="ai-ask-arrow">›</span></button>
+            </div>
+          </div>
+          <div class="ai-chips">
+            <button class="ai-chip"><span class="ai-chip-icon">✦</span> What's my best first pick?</button>
+            <button class="ai-chip"><span class="ai-chip-icon">✦</span> Who's likely gone before me?</button>
+            <button class="ai-chip"><span class="ai-chip-icon">✦</span> Best 3-team combo given my OPR?</button>
+            <button class="ai-chip"><span class="ai-chip-icon">✦</span> Should I target a defender?</button>
+          </div>
+        </div>
+
+      </div>
+      <!-- ── / Notes + AI chat ── -->
+
+      <div class="t-heading" style="margin-bottom:3px;">Full pick board</div>
+      <div style="font-size:11px;color:var(--text-muted);margin-bottom:14px;">All available teams · mark as gone, willing, or declined</div>
+
+      <!-- Main two-col grid -->
+      <div style="display:grid;grid-template-columns:1fr 260px;gap:16px;">
+
+        <!-- Left: pick pool table -->
+        <div style="display:flex;flex-direction:column;gap:12px;">
+          <div class="card" style="padding:0;overflow:hidden;">
+            <div style="padding:16px 18px 12px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--border);">
+              <div>
+                <div class="t-heading" style="margin-bottom:2px;">Ranked pick pool</div>
+                <div style="font-size:11px;color:var(--text-muted);">Sorted by fit score · click row to expand</div>
+              </div>
+              <div style="display:flex;align-items:center;gap:8px;">
+                <span class="ps-pill" id="role-label">scorer</span>
+                <input class="search-input" id="pick-search" type="text" placeholder="Filter…" oninput="renderPickPool()" style="width:120px;padding:5px 9px;" />
+              </div>
+            </div>
+            <div style="overflow-x:auto;">
+              <table class="pick-table" style="min-width:640px;">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th></th>
+                    <th>Team</th>
+                    <th>W–L</th>
+                    <th>OPR</th>
+                    <th>EPA</th>
+                    <th>Climb</th>
+                    <th title="Consistency — lower std dev = higher reliability">Rely</th>
+                    <th title="Estimated probability this team is still available when you pick">Avail</th>
+                    <th colspan="2">Fit score</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody id="pick-pool-tbody"></tbody>
+              </table>
+            </div>
+          </div>
+
+          <!-- Off the board (gone) -->
+          <div id="gone-section" style="display:none;">
+            <div class="card">
+              <div class="card-header">
+                <span class="t-heading" style="color:var(--text-muted);">Off the board</span>
+                <span class="t-label" id="gone-count-label">0 teams</span>
+              </div>
+              <div id="gone-list"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right sidebar -->
+        <div style="display:flex;flex-direction:column;gap:14px;">
+
+          <!-- My alliance builder -->
+          <div class="card" style="padding:0;overflow:hidden;">
+            <!-- Alliance panel header — blue alliance treatment -->
+            <div class="ab-al-header" style="padding:14px 16px;border-bottom:1px solid rgba(59,130,246,0.12);background:rgba(59,130,246,0.04);">
+              <div class="ab-al-dot" style="background:#3b82f6;margin-top:3px;"></div>
+              <div style="flex:1;">
+                <span class="ab-al-title ab-al-title-blue">Alliance 5</span>
+                <div style="font-size:11px;color:var(--text-soft);margin-top:2px;">Your alliance · 2026ontor</div>
+              </div>
+              <button class="btn btn-ghost btn-xs" onclick="clearAlliance()" style="align-self:flex-start;">Clear</button>
+            </div>
+            <div style="padding:12px 14px;">
+            <!-- Your team (captain, fixed) -->
+            <div style="display:flex;align-items:center;gap:10px;padding:10px 12px;border:1px solid rgba(202,138,4,0.35);background:rgba(202,138,4,0.07);border-radius:6px;margin-bottom:6px;">
+              <div class="team-avatar-sm" style="background:rgba(202,138,4,0.2);color:#fbbf24;border-color:rgba(202,138,4,0.3);">A</div>
+              <div>
+                <div style="font-family:var(--mono);font-size:14px;font-weight:700;color:#fbbf24;">6632</div>
+                <div style="font-size:11px;color:var(--text-soft);">Astro Falcons · captain</div>
+              </div>
+              <div style="margin-left:auto;font-family:var(--mono);font-size:10px;color:var(--text-muted);">176 OPR</div>
+            </div>
+            <!-- Pick slots -->
+            <div class="alliance-pick-slot" id="alliance-slot-0"></div>
+            <div class="alliance-pick-slot" id="alliance-slot-1"></div>
+            <!-- Projected stats -->
+            <div id="alliance-proj" style="display:none;margin-top:12px;">
+              <div class="ps-section-label" style="margin-bottom:8px;">Projected alliance</div>
+              <div class="ps-chip-grid">
+                <div class="ps-chip">
+                  <div class="ps-chip-label">OPR</div>
+                  <div class="ps-chip-val" id="proj-opr">—</div>
+                </div>
+                <div class="ps-chip">
+                  <div class="ps-chip-label">Best climb</div>
+                  <div class="ps-chip-val" id="proj-climb">—</div>
+                </div>
+                <div class="ps-chip">
+                  <div class="ps-chip-label">Est. win %</div>
+                  <div class="ps-chip-val" id="proj-wr">—</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Weakness gap analysis -->
+            <div id="weakness-gap" style="display:none;margin-top:14px;padding-top:12px;border-top:1px solid var(--border);">
+              <div class="t-label" style="margin-bottom:10px;">Alliance gap analysis</div>
+              <div id="gap-content"></div>
+            </div>
+            </div><!-- /padding wrapper -->
+          </div><!-- /My Alliance card -->
+
+          <!-- Draft simulator -->
+          <div class="card">
+            <div class="card-header">
+              <span class="t-heading">Draft simulator</span>
+              <span class="t-label">R1 picks before you</span>
+            </div>
+            <div style="font-size:11px;color:var(--text-soft);line-height:1.5;margin-bottom:10px;">
+              Predict what each alliance picks. Those teams dim in the pool.
+            </div>
+            <div id="pred-picks-list"></div>
+            <div class="divider"></div>
+            <div id="pred-summary" style="font-size:11px;color:var(--text-soft);line-height:1.6;"></div>
+          </div>
+
+          <!-- Watchlist + Avoid -->
+          <div class="card">
+            <div class="card-header">
+              <span class="t-heading">Watchlist</span>
+              <span class="t-label" id="watchlist-count">0 teams</span>
+            </div>
+            <div id="watchlist-section">
+              <div style="font-size:11px;color:var(--text-muted);padding:6px 0;">No teams flagged yet.</div>
+            </div>
+            <div class="divider"></div>
+            <div class="t-label" style="margin-bottom:6px;">Avoid list</div>
+            <div id="avoid-section">
+              <div style="font-size:11px;color:var(--text-muted);padding:4px 0;">No teams avoided.</div>
+            </div>
+          </div>
+
+        </div><!-- /right sidebar -->
+      </div><!-- /main grid -->
+    </div><!-- /page-pickstrat -->
+
+    <!-- ═══════════════════════════════════
+         SETTINGS PAGE
+    ════════════════════════════════════ -->

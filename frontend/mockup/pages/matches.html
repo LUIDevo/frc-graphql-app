@@ -1,0 +1,228 @@
+    <div id="page-matches" class="page">
+
+      <!-- Header -->
+      <div class="teams-top">
+        <div>
+          <div class="page-eyebrow">Matches · 2026ontor</div>
+          <div class="page-display">Match Schedule</div>
+        </div>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center;">
+          <input class="search-input" type="text" placeholder="Search…" style="border-radius:999px;padding:5px 13px;" />
+          <button class="btn-pill active" onclick="setMatchFilter(this,'all')">All</button>
+          <button class="btn-pill" onclick="setMatchFilter(this,'my')">My team</button>
+          <button class="btn-pill" onclick="setMatchFilter(this,'unscouted')">Unscouted</button>
+          <button class="btn btn-danger btn-sm" onclick="show('unmatched')" style="margin-left:4px;">⚠ Unmatched <span style="font-family:var(--mono);font-weight:700;" id="unmatched-badge">3</span></button>
+        </div>
+      </div>
+
+      <div class="match-card-list">
+
+        <!-- Q1 — fully scouted, red wins -->
+        <div class="mc-card" onclick="showMatch('Q1')">
+          <div class="mc-head">
+            <div class="mc-head-left">
+              <div class="mc-title">Qualification Match 1</div>
+              <div class="mc-subtitle">Red wins · +27 pts</div>
+            </div>
+            <div class="mc-head-badges">
+              <span class="pill pill-green" style="font-size:9px;padding:2px 8px;">● scouted</span>
+            </div>
+          </div>
+          <div class="mc-alliance-grid">
+            <div class="mc-alliance-chip chip-win-red">
+              <div class="mc-alliance-label mc-red-label">Red Alliance</div>
+              <div class="mc-score mc-score-red">148</div>
+              <div class="mc-teams">
+                <span class="a-chip a-chip-red">1114</span>
+                <span class="a-chip a-chip-red">854</span>
+                <span class="a-chip a-chip-red">5031</span>
+              </div>
+            </div>
+            <div class="mc-alliance-chip chip-loss">
+              <div class="mc-alliance-label mc-blue-label">Blue Alliance</div>
+              <div class="mc-score mc-score-loss">121</div>
+              <div class="mc-teams">
+                <span class="a-chip a-chip-blue">2056</span>
+                <span class="a-chip a-chip-blue">771</span>
+                <span class="a-chip a-chip-blue">9262</span>
+              </div>
+            </div>
+          </div>
+          <div class="mc-coverage-row">
+            <div class="mc-coverage">
+              <div class="scout-dot filled"></div><div class="scout-dot filled"></div><div class="scout-dot filled"></div><div class="scout-dot filled"></div><div class="scout-dot filled"></div><div class="scout-dot filled"></div>
+              <span class="mc-coverage-label">6/6 scouted</span>
+            </div>
+            <button class="mc-action-btn" onclick="event.stopPropagation();showMatch('Q1')">View match →</button>
+          </div>
+        </div>
+
+        <!-- Q2 — your match, in progress -->
+        <div class="mc-card mc-your" onclick="showMatch('Q2')">
+          <div class="mc-head">
+            <div class="mc-head-left">
+              <div class="mc-title">Qualification Match 2</div>
+              <div class="mc-subtitle">Your match · partial scout coverage</div>
+            </div>
+            <div class="mc-head-badges">
+              <span class="pill pill-blue" style="font-size:9px;padding:2px 8px;">your match</span>
+              <span class="pill" style="font-size:9px;padding:2px 8px;background:var(--c-amber-dim);color:var(--c-amber);border-color:var(--c-amber-border);">● live</span>
+            </div>
+          </div>
+          <div class="mc-alliance-grid">
+            <div class="mc-alliance-chip chip-red">
+              <div class="mc-alliance-label mc-red-label">Red Alliance</div>
+              <div class="mc-score mc-score-tbd">in progress</div>
+              <div class="mc-teams">
+                <span class="a-chip a-chip-red a-chip-you">6632</span>
+                <span class="a-chip a-chip-red">4069</span>
+                <span class="a-chip a-chip-red">7558</span>
+              </div>
+            </div>
+            <div class="mc-alliance-chip chip-blue">
+              <div class="mc-alliance-label mc-blue-label">Blue Alliance</div>
+              <div class="mc-score mc-score-tbd">—</div>
+              <div class="mc-teams">
+                <span class="a-chip a-chip-blue">610</span>
+                <span class="a-chip a-chip-blue">854</span>
+                <span class="a-chip a-chip-blue">9262</span>
+              </div>
+            </div>
+          </div>
+          <div class="mc-coverage-row">
+            <div class="mc-coverage">
+              <div class="scout-dot filled"></div><div class="scout-dot filled"></div><div class="scout-dot partial"></div><div class="scout-dot"></div><div class="scout-dot"></div><div class="scout-dot"></div>
+              <span class="mc-coverage-label">3/6 scouted</span>
+            </div>
+            <button class="mc-action-btn" onclick="event.stopPropagation();showMatch('Q2')">View match →</button>
+          </div>
+        </div>
+
+        <!-- Q3 — unscouted -->
+        <div class="mc-card mc-unscouted" onclick="showMatch('Q3')">
+          <div class="mc-head">
+            <div class="mc-head-left">
+              <div class="mc-title">Qualification Match 3</div>
+              <div class="mc-subtitle">No scouts assigned · upcoming</div>
+            </div>
+            <div class="mc-head-badges">
+              <span class="pill pill-grey" style="font-size:9px;padding:2px 8px;">unscouted</span>
+            </div>
+          </div>
+          <div class="mc-alliance-grid">
+            <div class="mc-alliance-chip chip-red">
+              <div class="mc-alliance-label mc-red-label">Red Alliance</div>
+              <div class="mc-score mc-score-tbd">—</div>
+              <div class="mc-teams">
+                <span class="a-chip a-chip-red">2056</span>
+                <span class="a-chip a-chip-red">771</span>
+                <span class="a-chip a-chip-red">5031</span>
+              </div>
+            </div>
+            <div class="mc-alliance-chip chip-blue">
+              <div class="mc-alliance-label mc-blue-label">Blue Alliance</div>
+              <div class="mc-score mc-score-tbd">—</div>
+              <div class="mc-teams">
+                <span class="a-chip a-chip-blue">1114</span>
+                <span class="a-chip a-chip-blue">4069</span>
+                <span class="a-chip a-chip-blue">7558</span>
+              </div>
+            </div>
+          </div>
+          <div class="mc-coverage-row">
+            <div class="mc-coverage">
+              <div class="scout-dot"></div><div class="scout-dot"></div><div class="scout-dot"></div><div class="scout-dot"></div><div class="scout-dot"></div><div class="scout-dot"></div>
+              <span class="mc-coverage-label">0/6 scouted</span>
+            </div>
+            <button class="mc-action-btn" onclick="event.stopPropagation();showMatch('Q3')">View match →</button>
+          </div>
+        </div>
+
+        <!-- Q4 — scouted, blue wins -->
+        <div class="mc-card" onclick="showMatch('Q4')" style="animation-delay:0.08s;">
+          <div class="mc-head">
+            <div class="mc-head-left">
+              <div class="mc-title">Qualification Match 4</div>
+              <div class="mc-subtitle">Blue wins · +28 pts</div>
+            </div>
+            <div class="mc-head-badges">
+              <span class="pill pill-green" style="font-size:9px;padding:2px 8px;">● scouted</span>
+            </div>
+          </div>
+          <div class="mc-alliance-grid">
+            <div class="mc-alliance-chip chip-loss">
+              <div class="mc-alliance-label mc-red-label">Red Alliance</div>
+              <div class="mc-score mc-score-loss">109</div>
+              <div class="mc-teams">
+                <span class="a-chip a-chip-red">610</span>
+                <span class="a-chip a-chip-red">9262</span>
+                <span class="a-chip a-chip-red">854</span>
+              </div>
+            </div>
+            <div class="mc-alliance-chip chip-win-blue">
+              <div class="mc-alliance-label mc-blue-label">Blue Alliance</div>
+              <div class="mc-score mc-score-blue">137</div>
+              <div class="mc-teams">
+                <span class="a-chip a-chip-blue">1114</span>
+                <span class="a-chip a-chip-blue">7558</span>
+                <span class="a-chip a-chip-blue">4069</span>
+              </div>
+            </div>
+          </div>
+          <div class="mc-coverage-row">
+            <div class="mc-coverage">
+              <div class="scout-dot filled"></div><div class="scout-dot filled"></div><div class="scout-dot filled"></div><div class="scout-dot filled"></div><div class="scout-dot filled"></div><div class="scout-dot partial"></div>
+              <span class="mc-coverage-label">5/6 scouted</span>
+            </div>
+            <button class="mc-action-btn" onclick="event.stopPropagation();showMatch('Q4')">View match →</button>
+          </div>
+        </div>
+
+        <!-- Q5 — partial scouting -->
+        <div class="mc-card" onclick="showMatch('Q5')" style="animation-delay:0.12s;">
+          <div class="mc-head">
+            <div class="mc-head-left">
+              <div class="mc-title">Qualification Match 5</div>
+              <div class="mc-subtitle">Red wins · +22 pts · 2 logs missing</div>
+            </div>
+            <div class="mc-head-badges">
+              <span class="pill" style="font-size:9px;padding:2px 8px;background:var(--c-amber-dim);color:var(--c-amber);border-color:var(--c-amber-border);">partial</span>
+            </div>
+          </div>
+          <div class="mc-alliance-grid">
+            <div class="mc-alliance-chip chip-win-red">
+              <div class="mc-alliance-label mc-red-label">Red Alliance</div>
+              <div class="mc-score mc-score-red">152</div>
+              <div class="mc-teams">
+                <span class="a-chip a-chip-red">5031</span>
+                <span class="a-chip a-chip-red">771</span>
+                <span class="a-chip a-chip-red">2056</span>
+              </div>
+            </div>
+            <div class="mc-alliance-chip chip-loss">
+              <div class="mc-alliance-label mc-blue-label">Blue Alliance</div>
+              <div class="mc-score mc-score-loss">130</div>
+              <div class="mc-teams">
+                <span class="a-chip a-chip-blue">610</span>
+                <span class="a-chip a-chip-blue">9262</span>
+                <span class="a-chip a-chip-blue">854</span>
+              </div>
+            </div>
+          </div>
+          <div class="mc-coverage-row">
+            <div class="mc-coverage">
+              <div class="scout-dot filled"></div><div class="scout-dot filled"></div><div class="scout-dot partial"></div><div class="scout-dot partial"></div><div class="scout-dot"></div><div class="scout-dot"></div>
+              <span class="mc-coverage-label">4/6 scouted</span>
+            </div>
+            <button class="mc-action-btn" onclick="event.stopPropagation();showMatch('Q5')">View match →</button>
+          </div>
+        </div>
+
+        <div style="font-family:var(--mono);font-size:11px;color:var(--text-muted);padding:16px 0;text-align:center;letter-spacing:0.06em;">25 more matches · use filters to narrow results</div>
+
+      </div>
+    </div><!-- /page-matches -->
+
+    <!-- ═══════════════════════════════════
+         MATCH DETAIL PAGE
+    ════════════════════════════════════ -->

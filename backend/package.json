@@ -1,0 +1,46 @@
+{
+  "dependencies": {
+    "@google/genai": "^1.9.0",
+    "@prisma/client": "^6.7.0",
+    "apollo-server": "^3.13.0",
+    "apollo-server-express": "^3.13.0",
+    "axios": "^1.9.0",
+    "better-sqlite3": "^11.10.0",
+    "csv-file-validator": "^2.2.0",
+    "csv-parser": "^3.2.0",
+    "debug": "^4.4.0",
+    "express": "^4.21.2",
+    "graphql": "^16.11.0",
+    "graphql-request": "^7.2.0",
+    "knex": "^3.1.0",
+    "prisma": "^6.7.0",
+    "sentiment": "^5.0.2",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "vectra": "^0.11.1"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/debug": "^4.1.12",
+    "@types/graphql-upload": "^17.0.0",
+    "@types/node": "^22.15.16",
+    "@types/node-fetch": "^2.6.12",
+    "@types/sentiment": "^5.0.4",
+    "prettier": "^3.5.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "DEBUG=app:server npx ts-node src/server.ts",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

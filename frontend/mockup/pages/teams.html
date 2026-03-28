@@ -1,0 +1,542 @@
+    <div id="page-teams" class="page">
+
+      <!-- Header -->
+      <div class="teams-top">
+        <div>
+          <div class="page-eyebrow">Teams · 2026ontor</div>
+          <div class="page-display">Teams at Event</div>
+        </div>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;align-items:center;">
+          <input class="search-input" type="text" placeholder="Search…" style="border-radius:999px;padding:5px 13px;" />
+          <button class="btn-pill active" onclick="setPillSort(this,'rank')">Rank</button>
+          <button class="btn-pill" onclick="setPillSort(this,'opr')">OPR</button>
+          <button class="btn-pill" onclick="setPillSort(this,'epa')">EPA</button>
+          <button class="btn-pill" onclick="setPillSort(this,'record')">Record</button>
+          <button class="btn-pill btn-pill-primary">↑ Export</button>
+          <div class="view-toggle" style="margin-left:4px;">
+            <button class="view-btn active" id="view-card-btn" onclick="setTeamView('card')" title="Card view">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+            </button>
+            <button class="view-btn" id="view-compact-btn" onclick="setTeamView('compact')" title="Compact view">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="8" y1="6" x2="21" y2="6"/><line x1="8" y1="12" x2="21" y2="12"/><line x1="8" y1="18" x2="21" y2="18"/><line x1="3" y1="6" x2="3.01" y2="6"/><line x1="3" y1="12" x2="3.01" y2="12"/><line x1="3" y1="18" x2="3.01" y2="18"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Team cards -->
+      <div class="team-card-list" id="team-card-list">
+
+        <!-- Team 1114 -->
+        <div class="team-card" style="animation-delay:0s;">
+          <div class="tc-main-row">
+            <div class="tc-left">
+              <div class="tc-avatar" style="background:rgba(99,102,241,0.12);border-color:rgba(99,102,241,0.25);color:#a5b4fc;">SB</div>
+              <div class="tc-left-text">
+                <div class="tc-title-line">
+                  <span class="tc-rank">#1</span>
+                  <span class="tc-num">1114</span>
+                  <span class="tc-name">Simbotics</span>
+                </div>
+                <div class="tc-sub">10 scouting logs · Ontario Provincial 2026</div>
+              </div>
+            </div>
+            <div class="tc-right">
+              <div class="tc-metric"><span class="tc-metric-label">W–L</span><span class="tc-metric-val">9–1</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">OPR</span><span class="tc-metric-val">247.3</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">EPA</span><span class="tc-metric-val">198</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">Climb</span><span class="tc-metric-val climb-l3">L3</span></div>
+            </div>
+          </div>
+          <div class="tc-snippet">Avg 12.4 fuel / match · consistent auto · strong endgame</div>
+          <div style="display:flex;gap:6px;margin-top:8px;">
+            <button class="tc-toggle" style="margin-top:0;" onclick="tcToggle(this)">Show details</button>
+            <button class="tc-toggle" style="margin-top:0;color:var(--accent);border-color:var(--accent-border);" onclick="showTeam('1114')">View team →</button>
+          </div>
+          <div class="tc-details" hidden>
+            <div class="tc-details-grid">
+              <div><h4>Performance</h4>
+                <p><span class="tc-dl">OPR</span>247.3</p>
+                <p><span class="tc-dl">EPA</span>198</p>
+                <p><span class="tc-dl">Avg fuel</span>12.4</p>
+              </div>
+              <div><h4>Record</h4>
+                <p><span class="tc-dl">W–L</span>9–1</p>
+                <p><span class="tc-dl">RP</span>28</p>
+                <p><span class="tc-dl">Rank</span>#1 of 25</p>
+              </div>
+              <div><h4>Endgame</h4>
+                <p><span class="tc-dl">Climb</span>L3</p>
+                <p><span class="tc-dl">Rate</span>100%</p>
+              </div>
+              <div><h4>Scouting</h4>
+                <p><span class="tc-dl">Logs</span>10</p>
+                <p><span class="tc-dl">Coverage</span>100%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team 2056 -->
+        <div class="team-card" style="animation-delay:0.04s;">
+          <div class="tc-main-row">
+            <div class="tc-left">
+              <div class="tc-avatar" style="background:rgba(34,211,238,0.1);border-color:rgba(34,211,238,0.22);color:#67e8f9;">OP</div>
+              <div class="tc-left-text">
+                <div class="tc-title-line">
+                  <span class="tc-rank">#2</span>
+                  <span class="tc-num">2056</span>
+                  <span class="tc-name">OP Robotics</span>
+                </div>
+                <div class="tc-sub">9 scouting logs · Ontario Provincial 2026</div>
+              </div>
+            </div>
+            <div class="tc-right">
+              <div class="tc-metric"><span class="tc-metric-label">W–L</span><span class="tc-metric-val">8–2</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">OPR</span><span class="tc-metric-val">231.8</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">EPA</span><span class="tc-metric-val">182</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">Climb</span><span class="tc-metric-val climb-l3">L3</span></div>
+            </div>
+          </div>
+          <div class="tc-snippet">Avg 11.1 fuel / match · reliable auto · L3 every match</div>
+          <div style="display:flex;gap:6px;margin-top:8px;">
+            <button class="tc-toggle" style="margin-top:0;" onclick="tcToggle(this)">Show details</button>
+            <button class="tc-toggle" style="margin-top:0;color:var(--accent);border-color:var(--accent-border);" onclick="showTeam('2056')">View team →</button>
+          </div>
+          <div class="tc-details" hidden>
+            <div class="tc-details-grid">
+              <div><h4>Performance</h4>
+                <p><span class="tc-dl">OPR</span>231.8</p>
+                <p><span class="tc-dl">EPA</span>182</p>
+                <p><span class="tc-dl">Avg fuel</span>11.1</p>
+              </div>
+              <div><h4>Record</h4>
+                <p><span class="tc-dl">W–L</span>8–2</p>
+                <p><span class="tc-dl">RP</span>24</p>
+                <p><span class="tc-dl">Rank</span>#2 of 25</p>
+              </div>
+              <div><h4>Endgame</h4>
+                <p><span class="tc-dl">Climb</span>L3</p>
+                <p><span class="tc-dl">Rate</span>90%</p>
+              </div>
+              <div><h4>Scouting</h4>
+                <p><span class="tc-dl">Logs</span>9</p>
+                <p><span class="tc-dl">Coverage</span>90%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team 610 -->
+        <div class="team-card" style="animation-delay:0.08s;">
+          <div class="tc-main-row">
+            <div class="tc-left">
+              <div class="tc-avatar" style="background:rgba(59,130,246,0.12);border-color:rgba(59,130,246,0.25);color:#93c5fd;">CC</div>
+              <div class="tc-left-text">
+                <div class="tc-title-line">
+                  <span class="tc-rank">#3</span>
+                  <span class="tc-num">610</span>
+                  <span class="tc-name">Crescent Crew</span>
+                </div>
+                <div class="tc-sub">8 scouting logs · Ontario Provincial 2026</div>
+              </div>
+            </div>
+            <div class="tc-right">
+              <div class="tc-metric"><span class="tc-metric-label">W–L</span><span class="tc-metric-val">8–2</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">OPR</span><span class="tc-metric-val">198.4</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">EPA</span><span class="tc-metric-val">165</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">Climb</span><span class="tc-metric-val climb-l3">L3</span></div>
+            </div>
+          </div>
+          <div class="tc-snippet">Avg 9.8 fuel / match · fast intake · strong defense capability</div>
+          <div style="display:flex;gap:6px;margin-top:8px;">
+            <button class="tc-toggle" style="margin-top:0;" onclick="tcToggle(this)">Show details</button>
+            <button class="tc-toggle" style="margin-top:0;color:var(--accent);border-color:var(--accent-border);" onclick="showTeam('610')">View team →</button>
+          </div>
+          <div class="tc-details" hidden>
+            <div class="tc-details-grid">
+              <div><h4>Performance</h4>
+                <p><span class="tc-dl">OPR</span>198.4</p>
+                <p><span class="tc-dl">EPA</span>165</p>
+                <p><span class="tc-dl">Avg fuel</span>9.8</p>
+              </div>
+              <div><h4>Record</h4>
+                <p><span class="tc-dl">W–L</span>8–2</p>
+                <p><span class="tc-dl">RP</span>24</p>
+                <p><span class="tc-dl">Rank</span>#3 of 25</p>
+              </div>
+              <div><h4>Endgame</h4>
+                <p><span class="tc-dl">Climb</span>L3</p>
+                <p><span class="tc-dl">Rate</span>80%</p>
+              </div>
+              <div><h4>Scouting</h4>
+                <p><span class="tc-dl">Logs</span>8</p>
+                <p><span class="tc-dl">Coverage</span>80%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team 4069 -->
+        <div class="team-card" style="animation-delay:0.12s;">
+          <div class="tc-main-row">
+            <div class="tc-left">
+              <div class="tc-avatar" style="background:rgba(251,146,60,0.1);border-color:rgba(251,146,60,0.22);color:#fdba74;">WH</div>
+              <div class="tc-left-text">
+                <div class="tc-title-line">
+                  <span class="tc-rank">#4</span>
+                  <span class="tc-num">4069</span>
+                  <span class="tc-name">WARHawks</span>
+                </div>
+                <div class="tc-sub">6 scouting logs · Ontario Provincial 2026</div>
+              </div>
+            </div>
+            <div class="tc-right">
+              <div class="tc-metric"><span class="tc-metric-label">W–L</span><span class="tc-metric-val">7–3</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">OPR</span><span class="tc-metric-val">184.7</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">EPA</span><span class="tc-metric-val">151</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">Climb</span><span class="tc-metric-val climb-l2">L2</span></div>
+            </div>
+          </div>
+          <div class="tc-snippet">Avg 9.1 fuel / match · inconsistent L2 climb · good teleop scorer</div>
+          <div style="display:flex;gap:6px;margin-top:8px;">
+            <button class="tc-toggle" style="margin-top:0;" onclick="tcToggle(this)">Show details</button>
+            <button class="tc-toggle" style="margin-top:0;color:var(--accent);border-color:var(--accent-border);" onclick="showTeam('4069')">View team →</button>
+          </div>
+          <div class="tc-details" hidden>
+            <div class="tc-details-grid">
+              <div><h4>Performance</h4>
+                <p><span class="tc-dl">OPR</span>184.7</p>
+                <p><span class="tc-dl">EPA</span>151</p>
+                <p><span class="tc-dl">Avg fuel</span>9.1</p>
+              </div>
+              <div><h4>Record</h4>
+                <p><span class="tc-dl">W–L</span>7–3</p>
+                <p><span class="tc-dl">RP</span>22</p>
+                <p><span class="tc-dl">Rank</span>#4 of 25</p>
+              </div>
+              <div><h4>Endgame</h4>
+                <p><span class="tc-dl">Climb</span>L2</p>
+                <p><span class="tc-dl">Rate</span>67%</p>
+              </div>
+              <div><h4>Scouting</h4>
+                <p><span class="tc-dl">Logs</span>6</p>
+                <p><span class="tc-dl">Coverage</span>60%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team 6632 — YOU -->
+        <div class="team-card tc-you" style="animation-delay:0.16s;">
+          <div class="tc-main-row">
+            <div class="tc-left">
+              <div class="tc-avatar" style="background:rgba(59,130,246,0.12);border-color:rgba(59,130,246,0.3);color:var(--accent);">AF</div>
+              <div class="tc-left-text">
+                <div class="tc-title-line">
+                  <span class="tc-rank" style="color:var(--accent);">#5</span>
+                  <span class="tc-num" style="color:var(--accent);">6632</span>
+                  <span class="tc-name">Astro Falcons</span>
+                  <span class="you-badge">you</span>
+                </div>
+                <div class="tc-sub">4 scouting logs · Ontario Provincial 2026</div>
+              </div>
+            </div>
+            <div class="tc-right">
+              <div class="tc-metric"><span class="tc-metric-label">W–L</span><span class="tc-metric-val">7–3</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">OPR</span><span class="tc-metric-val">176.2</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">EPA</span><span class="tc-metric-val">144</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">Climb</span><span class="tc-metric-val climb-l3">L3</span></div>
+            </div>
+          </div>
+          <div class="tc-snippet">Avg 8.6 fuel / match · your team · 4 logs submitted</div>
+          <div style="display:flex;gap:6px;margin-top:8px;">
+            <button class="tc-toggle" style="margin-top:0;" onclick="tcToggle(this)">Show details</button>
+            <button class="tc-toggle" style="margin-top:0;color:var(--accent);border-color:var(--accent-border);" onclick="showTeam('6632')">View team →</button>
+          </div>
+          <div class="tc-details" hidden>
+            <div class="tc-details-grid">
+              <div><h4>Performance</h4>
+                <p><span class="tc-dl">OPR</span>176.2</p>
+                <p><span class="tc-dl">EPA</span>144</p>
+                <p><span class="tc-dl">Avg fuel</span>8.6</p>
+              </div>
+              <div><h4>Record</h4>
+                <p><span class="tc-dl">W–L</span>7–3</p>
+                <p><span class="tc-dl">RP</span>20</p>
+                <p><span class="tc-dl">Rank</span>#5 of 25</p>
+              </div>
+              <div><h4>Endgame</h4>
+                <p><span class="tc-dl">Climb</span>L3</p>
+                <p><span class="tc-dl">Rate</span>70%</p>
+              </div>
+              <div><h4>Scouting</h4>
+                <p><span class="tc-dl">Logs</span>4</p>
+                <p><span class="tc-dl">Coverage</span>40%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team 771 -->
+        <div class="team-card" style="animation-delay:0.20s;">
+          <div class="tc-main-row">
+            <div class="tc-left">
+              <div class="tc-avatar" style="background:rgba(167,139,250,0.1);border-color:rgba(167,139,250,0.22);color:#c4b5fd;">SW</div>
+              <div class="tc-left-text">
+                <div class="tc-title-line">
+                  <span class="tc-rank">#6</span>
+                  <span class="tc-num">771</span>
+                  <span class="tc-name">SWAT</span>
+                </div>
+                <div class="tc-sub">7 scouting logs · Ontario Provincial 2026</div>
+              </div>
+            </div>
+            <div class="tc-right">
+              <div class="tc-metric"><span class="tc-metric-label">W–L</span><span class="tc-metric-val">6–4</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">OPR</span><span class="tc-metric-val">163.9</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">EPA</span><span class="tc-metric-val">138</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">Climb</span><span class="tc-metric-val climb-l2">L2</span></div>
+            </div>
+          </div>
+          <div class="tc-snippet">Avg 7.9 fuel / match · aggressive defender · occasional L2</div>
+          <div style="display:flex;gap:6px;margin-top:8px;">
+            <button class="tc-toggle" style="margin-top:0;" onclick="tcToggle(this)">Show details</button>
+            <button class="tc-toggle" style="margin-top:0;color:var(--accent);border-color:var(--accent-border);" onclick="showTeam('771')">View team →</button>
+          </div>
+          <div class="tc-details" hidden>
+            <div class="tc-details-grid">
+              <div><h4>Performance</h4>
+                <p><span class="tc-dl">OPR</span>163.9</p>
+                <p><span class="tc-dl">EPA</span>138</p>
+                <p><span class="tc-dl">Avg fuel</span>7.9</p>
+              </div>
+              <div><h4>Record</h4>
+                <p><span class="tc-dl">W–L</span>6–4</p>
+                <p><span class="tc-dl">RP</span>18</p>
+                <p><span class="tc-dl">Rank</span>#6 of 25</p>
+              </div>
+              <div><h4>Endgame</h4>
+                <p><span class="tc-dl">Climb</span>L2</p>
+                <p><span class="tc-dl">Rate</span>57%</p>
+              </div>
+              <div><h4>Scouting</h4>
+                <p><span class="tc-dl">Logs</span>7</p>
+                <p><span class="tc-dl">Coverage</span>70%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team 5031 -->
+        <div class="team-card" style="animation-delay:0.24s;">
+          <div class="tc-main-row">
+            <div class="tc-left">
+              <div class="tc-avatar" style="background:rgba(52,211,153,0.1);border-color:rgba(52,211,153,0.22);color:#6ee7b7;">PT</div>
+              <div class="tc-left-text">
+                <div class="tc-title-line">
+                  <span class="tc-rank">#7</span>
+                  <span class="tc-num">5031</span>
+                  <span class="tc-name">Patriots</span>
+                </div>
+                <div class="tc-sub">5 scouting logs · Ontario Provincial 2026</div>
+              </div>
+            </div>
+            <div class="tc-right">
+              <div class="tc-metric"><span class="tc-metric-label">W–L</span><span class="tc-metric-val">6–4</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">OPR</span><span class="tc-metric-val">159.1</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">EPA</span><span class="tc-metric-val">130</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">Climb</span><span class="tc-metric-val climb-l1">L1</span></div>
+            </div>
+          </div>
+          <div class="tc-snippet">Avg 7.4 fuel / match · L1 only · strong ground intake</div>
+          <div style="display:flex;gap:6px;margin-top:8px;">
+            <button class="tc-toggle" style="margin-top:0;" onclick="tcToggle(this)">Show details</button>
+            <button class="tc-toggle" style="margin-top:0;color:var(--accent);border-color:var(--accent-border);" onclick="showTeam('5031')">View team →</button>
+          </div>
+          <div class="tc-details" hidden>
+            <div class="tc-details-grid">
+              <div><h4>Performance</h4>
+                <p><span class="tc-dl">OPR</span>159.1</p>
+                <p><span class="tc-dl">EPA</span>130</p>
+                <p><span class="tc-dl">Avg fuel</span>7.4</p>
+              </div>
+              <div><h4>Record</h4>
+                <p><span class="tc-dl">W–L</span>6–4</p>
+                <p><span class="tc-dl">RP</span>18</p>
+                <p><span class="tc-dl">Rank</span>#7 of 25</p>
+              </div>
+              <div><h4>Endgame</h4>
+                <p><span class="tc-dl">Climb</span>L1</p>
+                <p><span class="tc-dl">Rate</span>80%</p>
+              </div>
+              <div><h4>Scouting</h4>
+                <p><span class="tc-dl">Logs</span>5</p>
+                <p><span class="tc-dl">Coverage</span>50%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team 854 -->
+        <div class="team-card" style="animation-delay:0.28s;">
+          <div class="tc-main-row">
+            <div class="tc-left">
+              <div class="tc-avatar" style="background:rgba(244,63,94,0.1);border-color:rgba(244,63,94,0.22);color:#fda4af;">TI</div>
+              <div class="tc-left-text">
+                <div class="tc-title-line">
+                  <span class="tc-rank">#8</span>
+                  <span class="tc-num">854</span>
+                  <span class="tc-name">Ti-84s</span>
+                </div>
+                <div class="tc-sub">3 scouting logs · Ontario Provincial 2026</div>
+              </div>
+            </div>
+            <div class="tc-right">
+              <div class="tc-metric"><span class="tc-metric-label">W–L</span><span class="tc-metric-val">5–5</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">OPR</span><span class="tc-metric-val">148.3</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">EPA</span><span class="tc-metric-val">122</span></div>
+              <div class="tc-metric"><span class="tc-metric-label">Climb</span><span class="tc-metric-val climb-l1">L1</span></div>
+            </div>
+          </div>
+          <div class="tc-snippet">Avg 6.8 fuel / match · limited auto · reliable defense</div>
+          <div style="display:flex;gap:6px;margin-top:8px;">
+            <button class="tc-toggle" style="margin-top:0;" onclick="tcToggle(this)">Show details</button>
+            <button class="tc-toggle" style="margin-top:0;color:var(--accent);border-color:var(--accent-border);" onclick="showTeam('854')">View team →</button>
+          </div>
+          <div class="tc-details" hidden>
+            <div class="tc-details-grid">
+              <div><h4>Performance</h4>
+                <p><span class="tc-dl">OPR</span>148.3</p>
+                <p><span class="tc-dl">EPA</span>122</p>
+                <p><span class="tc-dl">Avg fuel</span>6.8</p>
+              </div>
+              <div><h4>Record</h4>
+                <p><span class="tc-dl">W–L</span>5–5</p>
+                <p><span class="tc-dl">RP</span>16</p>
+                <p><span class="tc-dl">Rank</span>#8 of 25</p>
+              </div>
+              <div><h4>Endgame</h4>
+                <p><span class="tc-dl">Climb</span>L1</p>
+                <p><span class="tc-dl">Rate</span>60%</p>
+              </div>
+              <div><h4>Scouting</h4>
+                <p><span class="tc-dl">Logs</span>3</p>
+                <p><span class="tc-dl">Coverage</span>30%</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="font-family:var(--mono);font-size:11px;color:var(--text-muted);padding:16px 0;text-align:center;letter-spacing:0.06em;">17 more teams · adjust sort or search to find them</div>
+
+      </div><!-- /team-card-list -->
+
+      <!-- Compact list -->
+      <div class="team-compact-list" id="team-compact-list">
+        <div class="tcl-header">
+          <span></span>
+          <span></span>
+          <span>Team</span>
+          <span>W–L</span>
+          <span>OPR</span>
+          <span>EPA</span>
+          <span>Climb</span>
+          <span></span>
+        </div>
+
+        <div class="tcl-row" onclick="showTeam('1114')">
+          <span class="tcl-rank">#1</span>
+          <div class="tcl-avatar" style="background:rgba(99,102,241,0.12);border-color:rgba(99,102,241,0.25);color:#a5b4fc;">SB</div>
+          <div class="tcl-identity"><span class="tcl-num">1114</span><span class="tcl-name">Simbotics</span></div>
+          <span class="tcl-val">9–1</span>
+          <span class="tcl-val">247.3</span>
+          <span class="tcl-val">198</span>
+          <span class="tcl-val climb-l3">L3</span>
+          <span class="tcl-action">View →</span>
+        </div>
+
+        <div class="tcl-row" onclick="showTeam('2056')">
+          <span class="tcl-rank">#2</span>
+          <div class="tcl-avatar" style="background:rgba(34,211,238,0.1);border-color:rgba(34,211,238,0.22);color:#67e8f9;">OP</div>
+          <div class="tcl-identity"><span class="tcl-num">2056</span><span class="tcl-name">OP Robotics</span></div>
+          <span class="tcl-val">8–2</span>
+          <span class="tcl-val">231.8</span>
+          <span class="tcl-val">182</span>
+          <span class="tcl-val climb-l3">L3</span>
+          <span class="tcl-action">View →</span>
+        </div>
+
+        <div class="tcl-row" onclick="showTeam('610')">
+          <span class="tcl-rank">#3</span>
+          <div class="tcl-avatar" style="background:rgba(59,130,246,0.12);border-color:rgba(59,130,246,0.25);color:#93c5fd;">CC</div>
+          <div class="tcl-identity"><span class="tcl-num">610</span><span class="tcl-name">Crescent Crew</span></div>
+          <span class="tcl-val">8–2</span>
+          <span class="tcl-val">198.4</span>
+          <span class="tcl-val">165</span>
+          <span class="tcl-val climb-l3">L3</span>
+          <span class="tcl-action">View →</span>
+        </div>
+
+        <div class="tcl-row" onclick="showTeam('4069')">
+          <span class="tcl-rank">#4</span>
+          <div class="tcl-avatar" style="background:rgba(251,146,60,0.1);border-color:rgba(251,146,60,0.22);color:#fdba74;">WH</div>
+          <div class="tcl-identity"><span class="tcl-num">4069</span><span class="tcl-name">WARHawks</span></div>
+          <span class="tcl-val">7–3</span>
+          <span class="tcl-val">184.7</span>
+          <span class="tcl-val">151</span>
+          <span class="tcl-val climb-l2">L2</span>
+          <span class="tcl-action">View →</span>
+        </div>
+
+        <div class="tcl-row tcl-you" onclick="showTeam('6632')">
+          <span class="tcl-rank" style="color:var(--accent);">#5</span>
+          <div class="tcl-avatar" style="background:rgba(59,130,246,0.15);border-color:rgba(59,130,246,0.35);color:var(--accent);">AF</div>
+          <div class="tcl-identity"><span class="tcl-num" style="color:var(--accent);">6632</span><span class="tcl-name">Astro Falcons</span><span class="you-badge" style="font-size:8px;">you</span></div>
+          <span class="tcl-val">7–3</span>
+          <span class="tcl-val" style="color:var(--accent);">176.2</span>
+          <span class="tcl-val">144</span>
+          <span class="tcl-val climb-l3">L3</span>
+          <span class="tcl-action">View →</span>
+        </div>
+
+        <div class="tcl-row" onclick="showTeam('771')">
+          <span class="tcl-rank">#6</span>
+          <div class="tcl-avatar" style="background:rgba(167,139,250,0.1);border-color:rgba(167,139,250,0.22);color:#c4b5fd;">SW</div>
+          <div class="tcl-identity"><span class="tcl-num">771</span><span class="tcl-name">SWAT</span></div>
+          <span class="tcl-val">6–4</span>
+          <span class="tcl-val">163.9</span>
+          <span class="tcl-val">138</span>
+          <span class="tcl-val climb-l2">L2</span>
+          <span class="tcl-action">View →</span>
+        </div>
+
+        <div class="tcl-row" onclick="showTeam('5031')">
+          <span class="tcl-rank">#7</span>
+          <div class="tcl-avatar" style="background:rgba(52,211,153,0.1);border-color:rgba(52,211,153,0.22);color:#6ee7b7;">PT</div>
+          <div class="tcl-identity"><span class="tcl-num">5031</span><span class="tcl-name">Patriots</span></div>
+          <span class="tcl-val">6–4</span>
+          <span class="tcl-val">159.1</span>
+          <span class="tcl-val">130</span>
+          <span class="tcl-val climb-l1">L1</span>
+          <span class="tcl-action">View →</span>
+        </div>
+
+        <div class="tcl-row" onclick="showTeam('854')">
+          <span class="tcl-rank">#8</span>
+          <div class="tcl-avatar" style="background:rgba(244,63,94,0.1);border-color:rgba(244,63,94,0.22);color:#fda4af;">TI</div>
+          <div class="tcl-identity"><span class="tcl-num">854</span><span class="tcl-name">Ti-84s</span></div>
+          <span class="tcl-val">5–5</span>
+          <span class="tcl-val">148.3</span>
+          <span class="tcl-val">122</span>
+          <span class="tcl-val climb-l1">L1</span>
+          <span class="tcl-action">View →</span>
+        </div>
+
+        <div style="font-family:var(--mono);font-size:11px;color:var(--text-muted);padding:14px 4px;letter-spacing:0.06em;">17 more teams · adjust sort or search to find them</div>
+      </div><!-- /team-compact-list -->
+    </div><!-- /page-teams -->
+
+    <!-- ═══════════════════════════════════
+         TEAM DETAIL PAGE
+    ════════════════════════════════════ -->

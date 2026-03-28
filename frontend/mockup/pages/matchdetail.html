@@ -1,0 +1,178 @@
+    <div id="page-matchdetail" class="page">
+
+      <!-- Header -->
+      <div class="md-header">
+        <div class="md-header-left">
+          <button class="btn-pill" onclick="show('matches')" style="flex-shrink:0;">← Matches</button>
+          <div>
+            <div class="page-eyebrow" id="md-eyebrow">Qual 1 · Ontario Provincial 2026</div>
+            <div class="page-display" id="md-title">Qualification Match 1</div>
+          </div>
+        </div>
+        <div style="display:flex;gap:6px;align-items:center;flex-wrap:wrap;">
+          <span class="pill pill-green" id="md-status-pill" style="font-size:10px;">● scouted</span>
+          <button class="btn-pill">↑ Export</button>
+        </div>
+      </div>
+
+      <!-- Stat strip -->
+      <div class="md-stat-strip">
+        <div class="md-stat md-red"><span class="md-stat-label">Red score</span><span class="md-stat-val" id="md-red-score">148</span></div>
+        <div class="md-stat md-blue"><span class="md-stat-label">Blue score</span><span class="md-stat-val" id="md-blue-score">121</span></div>
+        <div class="md-stat"><span class="md-stat-label">Winner</span><span class="md-stat-val" id="md-winner" style="color:#fda4af;">Red Alliance</span></div>
+        <div class="md-stat"><span class="md-stat-label">Margin</span><span class="md-stat-val" id="md-margin">+27</span></div>
+        <div class="md-stat"><span class="md-stat-label">Scout coverage</span><span class="md-stat-val" id="md-coverage">6/6</span></div>
+      </div>
+
+      <!-- Alliance breakdowns -->
+      <div class="md-two-col" style="margin-bottom:20px;">
+
+        <!-- Red alliance -->
+        <div class="md-alliance-card">
+          <div class="md-alliance-header md-red-header">
+            <span class="md-alliance-title" style="color:#fda4af;">Red Alliance</span>
+            <span class="md-alliance-score md-score-red" id="md-red-score-big" style="color:#fda4af;">148</span>
+          </div>
+          <div class="md-team-row">
+            <div class="md-team-top">
+              <div class="md-team-left">
+                <span class="md-team-num" onclick="showTeam('1114')">1114</span>
+                <span class="md-team-name">Simbotics</span>
+              </div>
+            </div>
+            <div class="md-team-metrics">
+              <div class="md-team-metric"><span class="md-team-metric-label">OPR</span>247.3</div>
+              <div class="md-team-metric"><span class="md-team-metric-label">Auto</span>14 fuel</div>
+              <div class="md-team-metric"><span class="md-team-metric-label">Tele</span>11 / 0</div>
+              <div class="md-team-metric"><span class="md-team-metric-label">Climb</span>L3 ✓</div>
+            </div>
+            <div class="md-team-notes has-note">Fast ground intake, consistent auto. Climbed L3 with 8s to spare.</div>
+          </div>
+          <div class="md-team-row">
+            <div class="md-team-top">
+              <div class="md-team-left">
+                <span class="md-team-num" onclick="showTeam('854')">854</span>
+                <span class="md-team-name">Ti-84s</span>
+              </div>
+            </div>
+            <div class="md-team-metrics">
+              <div class="md-team-metric"><span class="md-team-metric-label">OPR</span>148.3</div>
+              <div class="md-team-metric"><span class="md-team-metric-label">Auto</span>7 fuel</div>
+              <div class="md-team-metric"><span class="md-team-metric-label">Tele</span>8 / 1</div>
+              <div class="md-team-metric"><span class="md-team-metric-label">Climb</span>L1</div>
+            </div>
+            <div class="md-team-notes has-note">Played defense mid-teleop. Missed 1 high goal. Only achieved L1.</div>
+          </div>
+          <div class="md-team-row">
+            <div class="md-team-top">
+              <div class="md-team-left">
+                <span class="md-team-num" onclick="showTeam('5031')">5031</span>
+                <span class="md-team-name">Patriots</span>
+              </div>
+            </div>
+            <div class="md-team-metrics">
+              <div class="md-team-metric"><span class="md-team-metric-label">OPR</span>159.1</div>
+              <div class="md-team-metric"><span class="md-team-metric-label">Auto</span>8 fuel</div>
+              <div class="md-team-metric"><span class="md-team-metric-label">Tele</span>9 / 0</div>
+              <div class="md-team-metric"><span class="md-team-metric-label">Climb</span>L1</div>
+            </div>
+            <div class="md-team-notes has-note">Clean teleop, no misses. Strong ground feeder for 1114.</div>
+          </div>
+        </div>
+
+        <!-- Blue alliance -->
+        <div class="md-alliance-card">
+          <div class="md-alliance-header md-blue-header">
+            <span class="md-alliance-title" style="color:#93c5fd;">Blue Alliance</span>
+            <span class="md-alliance-score" id="md-blue-score-big" style="color:#93c5fd;">121</span>
+          </div>
+          <div class="md-team-row">
+            <div class="md-team-top">
+              <div class="md-team-left">
+                <span class="md-team-num" onclick="showTeam('2056')">2056</span>
+                <span class="md-team-name">OP Robotics</span>
+              </div>
+            </div>
+            <div class="md-team-metrics">
+              <div class="md-team-metric"><span class="md-team-metric-label">OPR</span>231.8</div>
+              <div class="md-team-metric"><span class="md-team-metric-label">Auto</span>10 fuel</div>
+              <div class="md-team-metric"><span class="md-team-metric-label">Tele</span>9 / 2</div>
+              <div class="md-team-metric"><span class="md-team-metric-label">Climb</span>L3 ✓</div>
+            </div>
+            <div class="md-team-notes has-note">Below avg performance. 2 misses hurt the alliance total.</div>
+          </div>
+          <div class="md-team-row">
+            <div class="md-team-top">
+              <div class="md-team-left">
+                <span class="md-team-num" onclick="showTeam('771')">771</span>
+                <span class="md-team-name">SWAT</span>
+              </div>
+            </div>
+            <div class="md-team-metrics">
+              <div class="md-team-metric"><span class="md-team-metric-label">OPR</span>163.9</div>
+              <div class="md-team-metric"><span class="md-team-metric-label">Auto</span>7 fuel</div>
+              <div class="md-team-metric"><span class="md-team-metric-label">Tele</span>8 / 1</div>
+              <div class="md-team-metric"><span class="md-team-metric-label">Climb</span>L2</div>
+            </div>
+            <div class="md-team-notes has-note">Tried to defend 1114, unsuccessful. L2 climb but slow.</div>
+          </div>
+          <div class="md-team-row">
+            <div class="md-team-top">
+              <div class="md-team-left">
+                <span class="md-team-num" onclick="showTeam('9262')">9262</span>
+                <span class="md-team-name">Quantum</span>
+              </div>
+            </div>
+            <div class="md-team-metrics">
+              <div class="md-team-metric"><span class="md-team-metric-label">OPR</span>141.7</div>
+              <div class="md-team-metric"><span class="md-team-metric-label">Auto</span>5 fuel</div>
+              <div class="md-team-metric"><span class="md-team-metric-label">Tele</span>6 / 0</div>
+              <div class="md-team-metric"><span class="md-team-metric-label">Climb</span>L1</div>
+            </div>
+            <div class="md-team-notes">No scouting notes for this robot.</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scout coverage section -->
+      <div class="td-card">
+        <div class="td-section-header">
+          <span class="td-section-title">Scouting coverage</span>
+          <div class="mc-coverage" style="gap:5px;">
+            <div class="scout-dot filled"></div><div class="scout-dot filled"></div><div class="scout-dot filled"></div><div class="scout-dot filled"></div><div class="scout-dot filled"></div><div class="scout-dot filled"></div>
+            <span style="font-family:var(--mono);font-size:10px;color:var(--text-muted);">6/6 robots scouted</span>
+          </div>
+        </div>
+        <div style="display:flex;gap:6px;flex-wrap:wrap;">
+          <div style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:999px;background:rgba(34,211,238,0.08);border:1px solid rgba(34,211,238,0.2);">
+            <div class="scout-dot filled"></div>
+            <span style="font-family:var(--mono);font-size:10px;color:var(--text-soft);">1114 · Alex M.</span>
+          </div>
+          <div style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:999px;background:rgba(34,211,238,0.08);border:1px solid rgba(34,211,238,0.2);">
+            <div class="scout-dot filled"></div>
+            <span style="font-family:var(--mono);font-size:10px;color:var(--text-soft);">854 · Priya K.</span>
+          </div>
+          <div style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:999px;background:rgba(34,211,238,0.08);border:1px solid rgba(34,211,238,0.2);">
+            <div class="scout-dot filled"></div>
+            <span style="font-family:var(--mono);font-size:10px;color:var(--text-soft);">5031 · Jordan T.</span>
+          </div>
+          <div style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:999px;background:rgba(34,211,238,0.08);border:1px solid rgba(34,211,238,0.2);">
+            <div class="scout-dot filled"></div>
+            <span style="font-family:var(--mono);font-size:10px;color:var(--text-soft);">2056 · Alex M.</span>
+          </div>
+          <div style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:999px;background:rgba(34,211,238,0.08);border:1px solid rgba(34,211,238,0.2);">
+            <div class="scout-dot filled"></div>
+            <span style="font-family:var(--mono);font-size:10px;color:var(--text-soft);">771 · Priya K.</span>
+          </div>
+          <div style="display:inline-flex;align-items:center;gap:6px;padding:3px 10px;border-radius:999px;background:rgba(255,255,255,0.04);border:1px solid var(--border);">
+            <div class="scout-dot filled" style="background:var(--text-muted);box-shadow:none;"></div>
+            <span style="font-family:var(--mono);font-size:10px;color:var(--text-muted);">9262 · no notes</span>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /page-matchdetail -->
+
+    <!-- ═══════════════════════════════════
+         ALLIANCE BUILDER PAGE
+    ════════════════════════════════════ -->

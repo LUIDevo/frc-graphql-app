@@ -1,0 +1,134 @@
+generator client {
+  provider = "prisma-client-js"
+  binaryTargets   = ["native", "debian-openssl-1.1.x"]
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id             Int      @id @default(autoincrement())
+  username       String
+  TBA_API_KEY    String
+  GEMINI_API_KEY String?
+  createdAt      DateTime @default(now())
+}
+
+model Avatar {
+  teamNumber   Int @id @unique
+  image         Bytes
+}
+
+model Event {
+  eventKey     String         @id
+  name         String
+  startDate    DateTime
+  endDate      DateTime
+  teams        Team[]
+  matches      Match[]
+  scoutingData ScoutingData[]
+}
+
+model Team {
+  id                 Int     @id @default(autoincrement())
+  teamKey            String
+  teamNumber         Int
+  nickname           String?
+  eventKey           String
+  event              Event   @relation(fields: [eventKey], references: [eventKey])
+  matchesPlayed      Int?
+  wins               Int?
+  losses             Int?
+  ties               Int?
+  rank               Int?
+  dq                 Int?
+  opr                Float?
+  dpr                Float?
+  ccwms              Float?
+  rankingPoints      Int?
+  rankingScore       Float?
+  avgAuto            Float?
+  avgAutoFuel        Float?
+  avgTeleopFuel      Float?
+  avgTotalFuel       Float?
+  totalClimbL1       Float?
+  totalClimbL2       Float?
+  totalClimbL3       Float?
+  totalClimbFail     Float?
+  penaltyCount       Int?
+  endgameReliability Float?
+  avgPoints          Float?
+  stdDevPoints       Float?
+  calculatedEPA      Float?
+
+  redMatches   Match[]        @relation("RedAlliance")
+  blueMatches  Match[]        @relation("BlueAlliance")
+  scoutingData ScoutingData[]
+
+  @@unique([teamNumber, eventKey], name: "teamNumber_eventKey")
+}
+
+model Match {
+  id           Int            @id @default(autoincrement())
+  matchKey     String
+  matchNumber  Int
+  eventKey     String
+  event        Event          @relation(fields: [eventKey], references: [eventKey])
+  redAlliance  Team[]         @relation("RedAlliance")
+  blueAlliance Team[]         @relation("BlueAlliance")
+  redScore     Int?
+  blueScore    Int?
+  scoutingData ScoutingData[]
+
+  actualTime   DateTime?
+  predictedTime DateTime?
+  status       String?
+}
+
+model ScoutingData {
+  id              Int      @id @default(autoincrement())
+  matchId         Int
+  teamId          Int
+  eventKey        String
+
+  match           Match    @relation(fields: [matchId], references: [id])
+  team            Team     @relation(fields: [teamId], references: [id])
+  event           Event    @relation(fields: [eventKey], references: [eventKey])
+
+  matchNumber     Int
+  teamNumber      Int
+
+  scoutName       String?
+  autoNotes       String?
+  notes           String?
+  autoFuel        Int?
+  teleopFuel      Int?
+  missed          Int?
+  climbLevel      String?
+  autoClimb       Boolean?
+  penalties       Int?
+  totalPoints     Int?
+  positivityScore Float?
+}
+
+model UnmatchedScoutingLog {
+  id              Int      @id @default(autoincrement())
+  eventKey        String
+  matchNumber     Int
+  teamNumber      Int
+  scoutName       String?
+  autoNotes       String?
+  notes           String?
+  autoFuel        Int?
+  teleopFuel      Int?
+  missed          Int?
+  climbLevel      String?
+  autoClimb       Boolean?
+  penalties       Int?
+  totalPoints     Int?
+  positivityScore Float?
+  reason          String?
+  createdAt       DateTime @default(now())
+}
