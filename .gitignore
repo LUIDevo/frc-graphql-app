@@ -16,6 +16,7 @@ dist-ssr
 /.claude/
 *.db
 *.md
+mockup/*
 !README.md
 *.sqlite
 .vscode/*
